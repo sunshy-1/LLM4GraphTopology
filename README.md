@@ -1,6 +1,6 @@
 ## Large Language Models as Topological Structure Enhancers for Text-Attributed Graphs (LLM4GraphTopology)
 
-This is the Pytorch implementation for our *DASFAA'25* paper: [**Large Language Models as Topological Structure Enhancers for Text-Attributed Graphs**](https://arxiv.org/abs/2311.14324). 
+This is the Pytorch implementation for our *DASFAA'25* paper: [**LLM4GraphTopology: Large Language Models as Topological Structure Enhancers for Text-Attributed Graphs**](https://arxiv.org/abs/2311.14324). 
 
 ## Abstract
 <div style="text-align: justify;">
