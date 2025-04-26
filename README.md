@@ -11,4 +11,24 @@ The latest advancements in large language models (LLMs) have revolutionized the 
 ![Framework](fig/framework.png)
 
 
-## The code will be released before May ...
+## Environment Requirement
+    # More details can be seen in ./code/requirement.txt.
+    python==3.8.17
+    torch==1.12.1+cu113 
+    torch-cluster==1.6.0+pt112cu113
+    torch-scatter==2.0.9  
+    torch-sparse==0.6.14  
+    torch-spline-conv==1.2.1+pt112cu113
+    torch-geometric==2.3.1
+
+## Datasets & Checkpoints
+
+We provide Datasets & Checkpoints in [link](). Please download them before running the code.
+
+## Run the Code
+    cd code && bash run_general_setting.sh/run_fewshot_setting.sh
+
+## Acknowledgment of Open-Source Code Contributions  
+
+  The code is based on the open-source repository: [TAPE](https://github.com/XiaoxinHe/TAPE), many thanks to the authors! 
+
