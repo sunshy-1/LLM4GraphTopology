@@ -34,7 +34,7 @@ We provide Datasets & Checkpoints in [link](). Please download them before runni
 
 You are welcome to cite our paper:
 ```
-@inproceedings{SunYu25,
+@inproceedings{SunRen25,
   title={Large Language Models as Topological Structure Enhancers for Text-Attributed Graphs},
   author={Sun, Shengyin and Ren, Yuxiang and Chen, Jiehao and Ma, Chen},
   booktitle={arXiv:2311.14324},
