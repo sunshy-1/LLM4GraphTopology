@@ -1,0 +1,123 @@
+# Device & Driver
+# 
+Sat Apr 26 03:00:02 2025       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.216.03             Driver Version: 535.216.03   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  Tesla V100-SXM2-32GB           On  | 00000000:1A:00.0 Off |                    0 |
+| N/A   35C    P0             123W / 300W |   1605MiB / 32768MiB |     59%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
++---------------------------------------------------------------------------------------+
+
+# Packages in environment at miniconda3/envs/TAPE:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main    defaults
+_openmp_mutex             5.1                       1_gnu    defaults
+accelerate                0.21.0                   pypi_0    pypi
+aiohttp                   3.8.4                    pypi_0    pypi
+aiosignal                 1.3.1                    pypi_0    pypi
+anyio                     3.7.1                    pypi_0    pypi
+async-timeout             4.0.3                    pypi_0    pypi
+attrs                     23.1.0                   pypi_0    pypi
+ca-certificates           2023.05.30           h06a4308_0    defaults
+certifi                   2023.7.22                pypi_0    pypi
+charset-normalizer        3.2.0                    pypi_0    pypi
+click                     8.1.7                    pypi_0    pypi
+contourpy                 1.1.1                    pypi_0    pypi
+cycler                    0.12.1                   pypi_0    pypi
+dgl                       1.0.1+cu113              pypi_0    pypi
+et-xmlfile                1.1.0                    pypi_0    pypi
+exceptiongroup            1.1.3                    pypi_0    pypi
+fastapi                   0.95.1                   pypi_0    pypi
+fastllm-pytools           0.0.1                    pypi_0    pypi
+filelock                  3.12.2                   pypi_0    pypi
+fonttools                 4.51.0                   pypi_0    pypi
+frozenlist                1.4.0                    pypi_0    pypi
+fsspec                    2023.6.0                 pypi_0    pypi
+googledrivedownloader     0.4                      pypi_0    pypi
+h11                       0.14.0                   pypi_0    pypi
+h5py                      3.9.0                    pypi_0    pypi
+huggingface-hub           0.16.4                   pypi_0    pypi
+idna                      3.4                      pypi_0    pypi
+importlib-resources       6.4.0                    pypi_0    pypi
+isodate                   0.6.1                    pypi_0    pypi
+jinja2                    3.1.2                    pypi_0    pypi
+joblib                    1.3.2                    pypi_0    pypi
+kiwisolver                1.4.5                    pypi_0    pypi
+ld_impl_linux-64          2.38                 h1181459_1    defaults
+libffi                    3.4.4                h6a678d5_0    defaults
+libgcc-ng                 11.2.0               h1234567_1    defaults
+libgomp                   11.2.0               h1234567_1    defaults
+libstdcxx-ng              11.2.0               h1234567_1    defaults
+littleutils               0.2.2                    pypi_0    pypi
+markupsafe                2.1.3                    pypi_0    pypi
+matplotlib                3.7.5                    pypi_0    pypi
+multidict                 6.0.4                    pypi_0    pypi
+ncurses                   6.4                  h6a678d5_0    defaults
+networkx                  3.1                      pypi_0    pypi
+numpy                     1.24.4                   pypi_0    pypi
+ogb                       1.3.6                    pypi_0    pypi
+openpyxl                  3.1.2                    pypi_0    pypi
+openssl                   3.0.10               h7f8727e_0    defaults
+outdated                  0.2.2                    pypi_0    pypi
+packaging                 23.1                     pypi_0    pypi
+pandas                    2.0.3                    pypi_0    pypi
+pillow                    10.3.0                   pypi_0    pypi
+pip                       23.2.1           py38h06a4308_0    defaults
+psutil                    5.9.5                    pypi_0    pypi
+pydantic                  1.10.12                  pypi_0    pypi
+pyparsing                 3.1.1                    pypi_0    pypi
+python                    3.8.17               h955ad1f_0    defaults
+python-dateutil           2.8.2                    pypi_0    pypi
+python-dotenv             1.0.0                    pypi_0    pypi
+pytz                      2023.3                   pypi_0    pypi
+pyyaml                    6.0.1                    pypi_0    pypi
+rdflib                    7.0.0                    pypi_0    pypi
+readline                  8.2                  h5eee18b_0    defaults
+regex                     2023.8.8                 pypi_0    pypi
+requests                  2.31.0                   pypi_0    pypi
+safetensors               0.3.2                    pypi_0    pypi
+scikit-learn              1.3.0                    pypi_0    pypi
+scipy                     1.10.1                   pypi_0    pypi
+seaborn                   0.13.2                   pypi_0    pypi
+sentencepiece             0.1.99                   pypi_0    pypi
+setuptools                68.0.0           py38h06a4308_0    defaults
+six                       1.16.0                   pypi_0    pypi
+slack-sdk                 3.21.3                   pypi_0    pypi
+sniffio                   1.3.0                    pypi_0    pypi
+sqlite                    3.41.2               h5eee18b_0    defaults
+sse-starlette             1.6.1                    pypi_0    pypi
+starlette                 0.26.1                   pypi_0    pypi
+threadpoolctl             3.2.0                    pypi_0    pypi
+tk                        8.6.12               h1ccaba5_0    defaults
+tokenizers                0.13.3                   pypi_0    pypi
+torch                     1.12.1+cu113             pypi_0    pypi
+torch-cluster             1.6.0+pt112cu113          pypi_0    pypi
+torch-geometric           2.3.1                    pypi_0    pypi
+torch-scatter             2.0.9                    pypi_0    pypi
+torch-sparse              0.6.14                   pypi_0    pypi
+torch-spline-conv         1.2.1+pt112cu113          pypi_0    pypi
+tqdm                      4.66.1                   pypi_0    pypi
+transformers              4.31.0                   pypi_0    pypi
+typing-extensions         4.7.1                    pypi_0    pypi
+tzdata                    2023.3                   pypi_0    pypi
+urllib3                   2.0.4                    pypi_0    pypi
+uvicorn                   0.22.0                   pypi_0    pypi
+wheel                     0.38.4           py38h06a4308_0    defaults
+xz                        5.4.2                h5eee18b_0    defaults
+yacs                      0.1.8                    pypi_0    pypi
+yarl                      1.9.2                    pypi_0    pypi
+zipp                      3.18.1                   pypi_0    pypi
+zlib                      1.2.13               h5eee18b_0    defaults

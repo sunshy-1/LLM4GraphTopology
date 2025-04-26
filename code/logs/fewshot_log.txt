@@ -1,0 +1,1013 @@
+2025-04-26 02:57:39.186 deberta-base
+2025-04-26 02:57:39.188 Loading pretrained LM features (title and abstract) ...
+2025-04-26 02:57:39.190 LM_emb_path: prt_lm_fewshot/cora/microsoft/deberta-base-seed0.emb
+2025-04-26 02:57:39.193 
+2025-04-26 02:57:39.194 Number of parameters: 276084
+2025-04-26 02:57:39.196 Start running train at 04-26 10:57:09
+2025-04-26 02:57:39.198 Epoch: 0, Time: 0.4486, Loss: 7.4837, Loss_gcn: 2.6720, Loss_lpa:1.6919, Loss_lpa2:1.5599, TrainAcc: 0.0571, ValAcc: 0.7080, ES: 00/50 | BestVal=0.7080@E0
+2025-04-26 02:57:39.199 Epoch: 10, Time: 0.0288, Loss: 4.8849, Loss_gcn: 0.1113, Loss_lpa:1.6815, Loss_lpa2:1.5460, TrainAcc: 0.9714, ValAcc: 0.7560, ES: 08/50 | BestVal=0.7740@E2
+2025-04-26 02:57:39.201 Epoch: 20, Time: 0.0292, Loss: 4.7682, Loss_gcn: 0.0415, Loss_lpa:1.6691, Loss_lpa2:1.5288, TrainAcc: 1.0000, ValAcc: 0.7540, ES: 18/50 | BestVal=0.7740@E2
+2025-04-26 02:57:39.202 Epoch: 30, Time: 0.0259, Loss: 4.7002, Loss_gcn: 0.0272, Loss_lpa:1.6551, Loss_lpa2:1.5089, TrainAcc: 0.9929, ValAcc: 0.7300, ES: 28/50 | BestVal=0.7740@E2
+2025-04-26 02:57:39.204 Epoch: 40, Time: 0.0285, Loss: 4.6268, Loss_gcn: 0.0149, Loss_lpa:1.6391, Loss_lpa2:1.4864, TrainAcc: 1.0000, ValAcc: 0.7340, ES: 38/50 | BestVal=0.7740@E2
+2025-04-26 02:57:39.205 Epoch: 50, Time: 0.0295, Loss: 4.5483, Loss_gcn: 0.0072, Loss_lpa:1.6205, Loss_lpa2:1.4603, TrainAcc: 1.0000, ValAcc: 0.7180, ES: 48/50 | BestVal=0.7740@E2
+2025-04-26 02:57:39.206 Early stopped, loading model from epoch-2
+2025-04-26 02:57:39.208 Finished running train at 04-26 10:57:11, running time = 1.93s.
+2025-04-26 02:57:39.210 [TA] ValAcc: 0.7740, TestAcc: 0.7670
+2025-04-26 02:57:39.211 
+2025-04-26 02:57:39.213 deberta-base
+2025-04-26 02:57:39.214 Loading top-k prediction features ...
+2025-04-26 02:57:39.215 
+2025-04-26 02:57:39.217 Number of parameters: 409204
+2025-04-26 02:57:39.218 Start running train at 04-26 10:57:14
+2025-04-26 02:57:39.220 Epoch: 0, Time: 0.0324, Loss: 7.0213, Loss_gcn: 2.2096, Loss_lpa:1.6919, Loss_lpa2:1.5599, TrainAcc: 0.1143, ValAcc: 0.6780, ES: 00/50 | BestVal=0.6780@E0
+2025-04-26 02:57:39.222 Epoch: 10, Time: 0.0291, Loss: 5.0692, Loss_gcn: 0.2984, Loss_lpa:1.6842, Loss_lpa2:1.5433, TrainAcc: 0.8714, ValAcc: 0.6360, ES: 10/50 | BestVal=0.6780@E0
+2025-04-26 02:57:39.223 Epoch: 20, Time: 0.0298, Loss: 4.9227, Loss_gcn: 0.1981, Loss_lpa:1.6754, Loss_lpa2:1.5246, TrainAcc: 0.9357, ValAcc: 0.7660, ES: 05/50 | BestVal=0.7860@E15
+2025-04-26 02:57:39.225 Epoch: 30, Time: 0.0303, Loss: 4.8254, Loss_gcn: 0.1520, Loss_lpa:1.6651, Loss_lpa2:1.5041, TrainAcc: 0.9286, ValAcc: 0.7660, ES: 15/50 | BestVal=0.7860@E15
+2025-04-26 02:57:39.226 Epoch: 40, Time: 0.0290, Loss: 4.6829, Loss_gcn: 0.0667, Loss_lpa:1.6535, Loss_lpa2:1.4814, TrainAcc: 0.9857, ValAcc: 0.7600, ES: 25/50 | BestVal=0.7860@E15
+2025-04-26 02:57:39.228 Epoch: 50, Time: 0.0302, Loss: 4.5984, Loss_gcn: 0.0471, Loss_lpa:1.6399, Loss_lpa2:1.4557, TrainAcc: 0.9857, ValAcc: 0.7080, ES: 35/50 | BestVal=0.7860@E15
+2025-04-26 02:57:39.229 Epoch: 60, Time: 0.0306, Loss: 4.4960, Loss_gcn: 0.0205, Loss_lpa:1.6236, Loss_lpa2:1.4259, TrainAcc: 1.0000, ValAcc: 0.6220, ES: 45/50 | BestVal=0.7860@E15
+2025-04-26 02:57:39.230 Early stopped, loading model from epoch-15
+2025-04-26 02:57:39.232 Finished running train at 04-26 10:57:16, running time = 1.97s.
+2025-04-26 02:57:39.233 [P] ValAcc: 0.7860, TestAcc: 0.7590
+2025-04-26 02:57:39.234 
+2025-04-26 02:57:39.236 deberta-base
+2025-04-26 02:57:39.237 Loading pretrained LM features (explanations) ...
+2025-04-26 02:57:39.239 LM_emb_path: prt_lm_fewshot/cora2/microsoft/deberta-base-seed0.emb
+2025-04-26 02:57:39.240 
+2025-04-26 02:57:39.241 Number of parameters: 276084
+2025-04-26 02:57:39.243 Start running train at 04-26 10:57:19
+2025-04-26 02:57:39.244 Epoch: 0, Time: 0.0324, Loss: 7.2975, Loss_gcn: 2.4858, Loss_lpa:1.6919, Loss_lpa2:1.5599, TrainAcc: 0.0786, ValAcc: 0.7240, ES: 00/50 | BestVal=0.7240@E0
+2025-04-26 02:57:39.246 Epoch: 10, Time: 0.0315, Loss: 4.9055, Loss_gcn: 0.1344, Loss_lpa:1.6824, Loss_lpa2:1.5443, TrainAcc: 0.9571, ValAcc: 0.7740, ES: 00/50 | BestVal=0.7740@E10
+2025-04-26 02:57:39.247 Epoch: 20, Time: 0.0316, Loss: 4.7833, Loss_gcn: 0.0602, Loss_lpa:1.6711, Loss_lpa2:1.5260, TrainAcc: 0.9929, ValAcc: 0.8040, ES: 00/50 | BestVal=0.8040@E20
+2025-04-26 02:57:39.249 Epoch: 30, Time: 0.0293, Loss: 4.7097, Loss_gcn: 0.0407, Loss_lpa:1.6583, Loss_lpa2:1.5053, TrainAcc: 0.9929, ValAcc: 0.8120, ES: 02/50 | BestVal=0.8160@E28
+2025-04-26 02:57:39.250 Epoch: 40, Time: 0.0297, Loss: 4.6408, Loss_gcn: 0.0331, Loss_lpa:1.6439, Loss_lpa2:1.4819, TrainAcc: 0.9857, ValAcc: 0.8060, ES: 12/50 | BestVal=0.8160@E28
+2025-04-26 02:57:39.252 Epoch: 50, Time: 0.0303, Loss: 4.5525, Loss_gcn: 0.0153, Loss_lpa:1.6276, Loss_lpa2:1.4548, TrainAcc: 1.0000, ValAcc: 0.8120, ES: 22/50 | BestVal=0.8160@E28
+2025-04-26 02:57:39.253 Epoch: 60, Time: 0.0300, Loss: 4.4595, Loss_gcn: 0.0053, Loss_lpa:1.6081, Loss_lpa2:1.4230, TrainAcc: 1.0000, ValAcc: 0.7980, ES: 32/50 | BestVal=0.8160@E28
+2025-04-26 02:57:39.255 Epoch: 70, Time: 0.0304, Loss: 4.3565, Loss_gcn: 0.0033, Loss_lpa:1.5842, Loss_lpa2:1.3845, TrainAcc: 1.0000, ValAcc: 0.8020, ES: 42/50 | BestVal=0.8160@E28
+2025-04-26 02:58:02.154 Early stopped, loading model from epoch-28
+2025-04-26 02:58:02.157 Finished running train at 04-26 10:57:22, running time = 2.40s.
+2025-04-26 02:58:02.160 [E] ValAcc: 0.8160, TestAcc: 0.8130
+2025-04-26 02:58:02.162 
+2025-04-26 02:58:02.164 (TA_P_E) ValAcc: 0.8300, TestAcc: 0.8240
+2025-04-26 02:58:02.166 
+2025-04-26 02:58:02.168 deberta-base
+2025-04-26 02:58:02.170 Loading pretrained LM features (title and abstract) ...
+2025-04-26 02:58:02.172 LM_emb_path: prt_lm_fewshot/cora/microsoft/deberta-base-seed1.emb
+2025-04-26 02:58:02.174 
+2025-04-26 02:58:02.175 Number of parameters: 276084
+2025-04-26 02:58:02.177 Start running train at 04-26 10:57:28
+2025-04-26 02:58:02.179 Epoch: 0, Time: 0.0332, Loss: 7.0953, Loss_gcn: 2.2258, Loss_lpa:1.6923, Loss_lpa2:1.5886, TrainAcc: 0.2000, ValAcc: 0.7420, ES: 00/50 | BestVal=0.7420@E0
+2025-04-26 02:58:02.180 Epoch: 10, Time: 0.0291, Loss: 4.8994, Loss_gcn: 0.0695, Loss_lpa:1.6825, Loss_lpa2:1.5737, TrainAcc: 0.9714, ValAcc: 0.7580, ES: 05/50 | BestVal=0.7920@E5
+2025-04-26 02:58:02.182 Epoch: 20, Time: 0.0296, Loss: 4.8130, Loss_gcn: 0.0288, Loss_lpa:1.6706, Loss_lpa2:1.5568, TrainAcc: 1.0000, ValAcc: 0.7620, ES: 15/50 | BestVal=0.7920@E5
+2025-04-26 02:58:02.184 Epoch: 30, Time: 0.0258, Loss: 4.7543, Loss_gcn: 0.0214, Loss_lpa:1.6572, Loss_lpa2:1.5379, TrainAcc: 0.9929, ValAcc: 0.7820, ES: 25/50 | BestVal=0.7920@E5
+2025-04-26 02:58:02.186 Epoch: 40, Time: 0.0246, Loss: 4.6823, Loss_gcn: 0.0078, Loss_lpa:1.6420, Loss_lpa2:1.5162, TrainAcc: 1.0000, ValAcc: 0.7860, ES: 04/50 | BestVal=0.7940@E36
+2025-04-26 02:58:02.188 Epoch: 50, Time: 0.0220, Loss: 4.6154, Loss_gcn: 0.0087, Loss_lpa:1.6245, Loss_lpa2:1.4911, TrainAcc: 1.0000, ValAcc: 0.7900, ES: 14/50 | BestVal=0.7940@E36
+2025-04-26 02:58:02.189 Epoch: 60, Time: 0.0218, Loss: 4.5477, Loss_gcn: 0.0214, Loss_lpa:1.6036, Loss_lpa2:1.4613, TrainAcc: 0.9929, ValAcc: 0.7880, ES: 04/50 | BestVal=0.7960@E56
+2025-04-26 02:58:02.191 Epoch: 70, Time: 0.0219, Loss: 4.4389, Loss_gcn: 0.0099, Loss_lpa:1.5769, Loss_lpa2:1.4260, TrainAcc: 1.0000, ValAcc: 0.7760, ES: 14/50 | BestVal=0.7960@E56
+2025-04-26 02:58:02.192 Epoch: 80, Time: 0.0219, Loss: 4.3058, Loss_gcn: 0.0040, Loss_lpa:1.5404, Loss_lpa2:1.3807, TrainAcc: 1.0000, ValAcc: 0.7660, ES: 24/50 | BestVal=0.7960@E56
+2025-04-26 02:58:02.194 Epoch: 90, Time: 0.0217, Loss: 4.1142, Loss_gcn: 0.0052, Loss_lpa:1.4821, Loss_lpa2:1.3135, TrainAcc: 1.0000, ValAcc: 0.7720, ES: 34/50 | BestVal=0.7960@E56
+2025-04-26 02:58:02.195 Epoch: 100, Time: 0.0285, Loss: 3.7626, Loss_gcn: 0.0368, Loss_lpa:1.3639, Loss_lpa2:1.1809, TrainAcc: 0.9929, ValAcc: 0.7600, ES: 44/50 | BestVal=0.7960@E56
+2025-04-26 02:58:02.197 Early stopped, loading model from epoch-56
+2025-04-26 02:58:02.198 Finished running train at 04-26 10:57:30, running time = 2.73s.
+2025-04-26 02:58:02.200 [TA] ValAcc: 0.7960, TestAcc: 0.7630
+2025-04-26 02:58:02.202 
+2025-04-26 02:58:02.203 deberta-base
+2025-04-26 02:58:02.205 Loading top-k prediction features ...
+2025-04-26 02:58:02.206 
+2025-04-26 02:58:02.208 Number of parameters: 409204
+2025-04-26 02:58:02.210 Start running train at 04-26 10:57:33
+2025-04-26 02:58:02.212 Epoch: 0, Time: 0.0340, Loss: 7.2338, Loss_gcn: 2.3643, Loss_lpa:1.6923, Loss_lpa2:1.5886, TrainAcc: 0.1500, ValAcc: 0.2580, ES: 00/50 | BestVal=0.2580@E0
+2025-04-26 02:58:02.214 Epoch: 10, Time: 0.0288, Loss: 5.2950, Loss_gcn: 0.4641, Loss_lpa:1.6856, Loss_lpa2:1.5727, TrainAcc: 0.8429, ValAcc: 0.6520, ES: 03/50 | BestVal=0.6700@E7
+2025-04-26 02:58:02.215 Epoch: 20, Time: 0.0323, Loss: 5.1189, Loss_gcn: 0.3318, Loss_lpa:1.6776, Loss_lpa2:1.5548, TrainAcc: 0.8714, ValAcc: 0.7380, ES: 00/50 | BestVal=0.7380@E20
+2025-04-26 02:58:02.217 Epoch: 30, Time: 0.0293, Loss: 4.9543, Loss_gcn: 0.2149, Loss_lpa:1.6681, Loss_lpa2:1.5357, TrainAcc: 0.9286, ValAcc: 0.7240, ES: 04/50 | BestVal=0.7700@E26
+2025-04-26 02:58:02.218 Epoch: 40, Time: 0.0303, Loss: 4.8217, Loss_gcn: 0.1348, Loss_lpa:1.6571, Loss_lpa2:1.5149, TrainAcc: 0.9571, ValAcc: 0.6460, ES: 14/50 | BestVal=0.7700@E26
+2025-04-26 02:58:02.220 Epoch: 50, Time: 0.0303, Loss: 4.7348, Loss_gcn: 0.1064, Loss_lpa:1.6447, Loss_lpa2:1.4918, TrainAcc: 0.9643, ValAcc: 0.5540, ES: 24/50 | BestVal=0.7700@E26
+2025-04-26 02:58:02.221 Epoch: 60, Time: 0.0305, Loss: 4.6214, Loss_gcn: 0.0608, Loss_lpa:1.6304, Loss_lpa2:1.4651, TrainAcc: 0.9786, ValAcc: 0.4940, ES: 34/50 | BestVal=0.7700@E26
+2025-04-26 02:58:02.223 Epoch: 70, Time: 0.0311, Loss: 4.5332, Loss_gcn: 0.0535, Loss_lpa:1.6134, Loss_lpa2:1.4332, TrainAcc: 0.9786, ValAcc: 0.5480, ES: 44/50 | BestVal=0.7700@E26
+2025-04-26 02:58:02.224 Early stopped, loading model from epoch-26
+2025-04-26 02:58:02.226 Finished running train at 04-26 10:57:36, running time = 2.37s.
+2025-04-26 02:58:02.228 [P] ValAcc: 0.7700, TestAcc: 0.7410
+2025-04-26 02:58:02.229 
+2025-04-26 02:58:02.231 deberta-base
+2025-04-26 02:58:02.232 Loading pretrained LM features (explanations) ...
+2025-04-26 02:58:02.234 LM_emb_path: prt_lm_fewshot/cora2/microsoft/deberta-base-seed1.emb
+2025-04-26 02:58:02.235 
+2025-04-26 02:58:02.237 Number of parameters: 276084
+2025-04-26 02:58:02.238 Start running train at 04-26 10:57:39
+2025-04-26 02:58:02.240 Epoch: 0, Time: 0.0322, Loss: 7.0918, Loss_gcn: 2.2223, Loss_lpa:1.6923, Loss_lpa2:1.5886, TrainAcc: 0.1929, ValAcc: 0.7920, ES: 00/50 | BestVal=0.7920@E0
+2025-04-26 02:58:02.242 Epoch: 10, Time: 0.0280, Loss: 4.8930, Loss_gcn: 0.0645, Loss_lpa:1.6827, Loss_lpa2:1.5729, TrainAcc: 0.9786, ValAcc: 0.7160, ES: 09/50 | BestVal=0.7940@E1
+2025-04-26 02:58:02.243 Epoch: 20, Time: 0.0290, Loss: 4.8043, Loss_gcn: 0.0220, Loss_lpa:1.6709, Loss_lpa2:1.5556, TrainAcc: 1.0000, ValAcc: 0.7900, ES: 19/50 | BestVal=0.7940@E1
+2025-04-26 02:58:02.245 Epoch: 30, Time: 0.0313, Loss: 4.7447, Loss_gcn: 0.0142, Loss_lpa:1.6575, Loss_lpa2:1.5365, TrainAcc: 1.0000, ValAcc: 0.8200, ES: 00/50 | BestVal=0.8200@E30
+2025-04-26 02:58:02.246 Epoch: 40, Time: 0.0241, Loss: 4.6778, Loss_gcn: 0.0061, Loss_lpa:1.6422, Loss_lpa2:1.5147, TrainAcc: 1.0000, ValAcc: 0.8200, ES: 00/50 | BestVal=0.8200@E40
+2025-04-26 02:58:02.248 Epoch: 50, Time: 0.0247, Loss: 4.6082, Loss_gcn: 0.0046, Loss_lpa:1.6246, Loss_lpa2:1.4895, TrainAcc: 1.0000, ValAcc: 0.8220, ES: 00/50 | BestVal=0.8220@E50
+2025-04-26 02:58:02.249 Epoch: 60, Time: 0.0219, Loss: 4.5335, Loss_gcn: 0.0101, Loss_lpa:1.6036, Loss_lpa2:1.4599, TrainAcc: 1.0000, ValAcc: 0.8240, ES: 08/50 | BestVal=0.8280@E52
+2025-04-26 02:58:02.251 Epoch: 70, Time: 0.0222, Loss: 4.4381, Loss_gcn: 0.0134, Loss_lpa:1.5769, Loss_lpa2:1.4239, TrainAcc: 0.9929, ValAcc: 0.8120, ES: 18/50 | BestVal=0.8280@E52
+2025-04-26 02:58:02.252 Epoch: 80, Time: 0.0222, Loss: 4.2981, Loss_gcn: 0.0022, Loss_lpa:1.5397, Loss_lpa2:1.3781, TrainAcc: 1.0000, ValAcc: 0.8220, ES: 28/50 | BestVal=0.8280@E52
+2025-04-26 02:58:02.254 Epoch: 90, Time: 0.0218, Loss: 4.1006, Loss_gcn: 0.0030, Loss_lpa:1.4788, Loss_lpa2:1.3094, TrainAcc: 1.0000, ValAcc: 0.8140, ES: 06/50 | BestVal=0.8280@E84
+2025-04-26 02:58:02.256 Epoch: 100, Time: 0.0219, Loss: 3.7092, Loss_gcn: 0.0116, Loss_lpa:1.3585, Loss_lpa2:1.1696, TrainAcc: 1.0000, ValAcc: 0.8240, ES: 02/50 | BestVal=0.8280@E98
+2025-04-26 02:58:02.257 Epoch: 110, Time: 0.0217, Loss: 3.3434, Loss_gcn: 0.2175, Loss_lpa:1.2079, Loss_lpa2:0.9590, TrainAcc: 0.9857, ValAcc: 0.7740, ES: 06/50 | BestVal=0.8440@E104
+2025-04-26 02:58:02.259 Epoch: 120, Time: 0.0219, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.1429, ValAcc: 0.0860, ES: 16/50 | BestVal=0.8440@E104
+2025-04-26 02:58:02.260 Epoch: 130, Time: 0.0217, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.1429, ValAcc: 0.0860, ES: 26/50 | BestVal=0.8440@E104
+2025-04-26 02:58:02.262 Epoch: 140, Time: 0.0218, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.1429, ValAcc: 0.0860, ES: 36/50 | BestVal=0.8440@E104
+2025-04-26 02:58:02.263 Epoch: 150, Time: 0.0220, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.1429, ValAcc: 0.0860, ES: 46/50 | BestVal=0.8440@E104
+2025-04-26 02:58:02.265 Early stopped, loading model from epoch-104
+2025-04-26 02:58:02.266 Finished running train at 04-26 10:57:42, running time = 3.69s.
+2025-04-26 02:58:02.268 [E] ValAcc: 0.8440, TestAcc: 0.7860
+2025-04-26 02:58:02.270 
+2025-04-26 02:58:02.271 (TA_P_E) ValAcc: 0.8380, TestAcc: 0.8290
+2025-04-26 02:58:02.273 
+2025-04-26 02:58:02.275 deberta-base
+2025-04-26 02:58:02.277 Loading pretrained LM features (title and abstract) ...
+2025-04-26 02:58:02.279 LM_emb_path: prt_lm_fewshot/cora/microsoft/deberta-base-seed2.emb
+2025-04-26 02:58:02.281 
+2025-04-26 02:58:02.282 Number of parameters: 276084
+2025-04-26 02:58:02.284 Start running train at 04-26 10:57:48
+2025-04-26 02:58:02.286 Epoch: 0, Time: 0.0265, Loss: 7.2247, Loss_gcn: 2.4697, Loss_lpa:1.6959, Loss_lpa2:1.5295, TrainAcc: 0.0929, ValAcc: 0.6060, ES: 00/50 | BestVal=0.6060@E0
+2025-04-26 02:58:02.287 Epoch: 10, Time: 0.0220, Loss: 4.7761, Loss_gcn: 0.0604, Loss_lpa:1.6852, Loss_lpa2:1.5153, TrainAcc: 0.9857, ValAcc: 0.4900, ES: 10/50 | BestVal=0.6060@E0
+2025-04-26 02:58:02.289 Epoch: 20, Time: 0.0220, Loss: 4.6985, Loss_gcn: 0.0299, Loss_lpa:1.6723, Loss_lpa2:1.4981, TrainAcc: 0.9929, ValAcc: 0.5980, ES: 20/50 | BestVal=0.6060@E0
+2025-04-26 02:58:02.290 Epoch: 30, Time: 0.0242, Loss: 4.6305, Loss_gcn: 0.0156, Loss_lpa:1.6578, Loss_lpa2:1.4786, TrainAcc: 1.0000, ValAcc: 0.6580, ES: 00/50 | BestVal=0.6580@E30
+2025-04-26 02:58:02.292 Epoch: 40, Time: 0.0242, Loss: 4.5590, Loss_gcn: 0.0057, Loss_lpa:1.6416, Loss_lpa2:1.4559, TrainAcc: 1.0000, ValAcc: 0.7120, ES: 00/50 | BestVal=0.7120@E40
+2025-04-26 02:58:02.294 Epoch: 50, Time: 0.0242, Loss: 4.4902, Loss_gcn: 0.0086, Loss_lpa:1.6228, Loss_lpa2:1.4294, TrainAcc: 1.0000, ValAcc: 0.7340, ES: 00/50 | BestVal=0.7340@E50
+2025-04-26 02:58:02.295 Epoch: 60, Time: 0.0221, Loss: 4.4037, Loss_gcn: 0.0077, Loss_lpa:1.6001, Loss_lpa2:1.3980, TrainAcc: 1.0000, ValAcc: 0.7220, ES: 09/50 | BestVal=0.7360@E51
+2025-04-26 02:58:02.297 Epoch: 70, Time: 0.0227, Loss: 4.3050, Loss_gcn: 0.0152, Loss_lpa:1.5706, Loss_lpa2:1.3596, TrainAcc: 0.9929, ValAcc: 0.7000, ES: 19/50 | BestVal=0.7360@E51
+2025-04-26 02:58:02.298 Epoch: 80, Time: 0.0223, Loss: 4.1516, Loss_gcn: 0.0045, Loss_lpa:1.5284, Loss_lpa2:1.3093, TrainAcc: 1.0000, ValAcc: 0.6800, ES: 29/50 | BestVal=0.7360@E51
+2025-04-26 02:58:02.299 Epoch: 90, Time: 0.0219, Loss: 3.9218, Loss_gcn: 0.0046, Loss_lpa:1.4562, Loss_lpa2:1.2305, TrainAcc: 1.0000, ValAcc: 0.6980, ES: 39/50 | BestVal=0.7360@E51
+2025-04-26 02:58:02.301 Epoch: 100, Time: 0.0220, Loss: 3.4872, Loss_gcn: 0.0823, Loss_lpa:1.3036, Loss_lpa2:1.0507, TrainAcc: 0.9857, ValAcc: 0.5380, ES: 49/50 | BestVal=0.7360@E51
+2025-04-26 02:58:02.302 Early stopped, loading model from epoch-51
+2025-04-26 02:58:02.304 Finished running train at 04-26 10:57:51, running time = 2.32s.
+2025-04-26 02:58:02.306 [TA] ValAcc: 0.7360, TestAcc: 0.7450
+2025-04-26 02:58:02.307 
+2025-04-26 02:58:02.308 deberta-base
+2025-04-26 02:58:02.310 Loading top-k prediction features ...
+2025-04-26 02:58:02.311 
+2025-04-26 02:58:02.313 Number of parameters: 409204
+2025-04-26 02:58:02.314 Start running train at 04-26 10:57:54
+2025-04-26 02:58:02.316 Epoch: 0, Time: 0.0278, Loss: 7.1732, Loss_gcn: 2.4183, Loss_lpa:1.6959, Loss_lpa2:1.5295, TrainAcc: 0.1071, ValAcc: 0.0520, ES: 00/50 | BestVal=0.0520@E0
+2025-04-26 02:58:02.317 Epoch: 10, Time: 0.0256, Loss: 4.9926, Loss_gcn: 0.2788, Loss_lpa:1.6875, Loss_lpa2:1.5132, TrainAcc: 0.9000, ValAcc: 0.3820, ES: 00/50 | BestVal=0.3820@E10
+2025-04-26 02:58:02.319 Epoch: 20, Time: 0.0256, Loss: 4.7887, Loss_gcn: 0.1217, Loss_lpa:1.6777, Loss_lpa2:1.4946, TrainAcc: 0.9643, ValAcc: 0.6000, ES: 00/50 | BestVal=0.6000@E20
+2025-04-26 02:58:02.320 Epoch: 30, Time: 0.0255, Loss: 4.7099, Loss_gcn: 0.0943, Loss_lpa:1.6664, Loss_lpa2:1.4746, TrainAcc: 0.9714, ValAcc: 0.7320, ES: 00/50 | BestVal=0.7320@E30
+2025-04-26 02:58:02.322 Epoch: 40, Time: 0.0228, Loss: 4.6056, Loss_gcn: 0.0473, Loss_lpa:1.6533, Loss_lpa2:1.4525, TrainAcc: 0.9929, ValAcc: 0.7340, ES: 01/50 | BestVal=0.7480@E39
+2025-04-26 02:58:02.323 Epoch: 50, Time: 0.0228, Loss: 4.5088, Loss_gcn: 0.0160, Loss_lpa:1.6385, Loss_lpa2:1.4271, TrainAcc: 1.0000, ValAcc: 0.7420, ES: 11/50 | BestVal=0.7480@E39
+2025-04-26 02:58:02.325 Epoch: 60, Time: 0.0229, Loss: 4.4373, Loss_gcn: 0.0202, Loss_lpa:1.6213, Loss_lpa2:1.3979, TrainAcc: 1.0000, ValAcc: 0.7200, ES: 21/50 | BestVal=0.7480@E39
+2025-04-26 02:58:02.326 Epoch: 70, Time: 0.0224, Loss: 4.3477, Loss_gcn: 0.0214, Loss_lpa:1.6005, Loss_lpa2:1.3629, TrainAcc: 0.9929, ValAcc: 0.7280, ES: 31/50 | BestVal=0.7480@E39
+2025-04-26 02:58:02.328 Epoch: 80, Time: 0.0226, Loss: 4.2345, Loss_gcn: 0.0223, Loss_lpa:1.5738, Loss_lpa2:1.3192, TrainAcc: 1.0000, ValAcc: 0.6980, ES: 41/50 | BestVal=0.7480@E39
+2025-04-26 02:58:02.330 Early stopped, loading model from epoch-39
+2025-04-26 02:58:02.331 Finished running train at 04-26 10:57:56, running time = 2.14s.
+2025-04-26 02:58:02.332 [P] ValAcc: 0.7480, TestAcc: 0.7260
+2025-04-26 02:58:02.334 
+2025-04-26 02:58:02.335 deberta-base
+2025-04-26 02:58:02.337 Loading pretrained LM features (explanations) ...
+2025-04-26 02:58:02.338 LM_emb_path: prt_lm_fewshot/cora2/microsoft/deberta-base-seed2.emb
+2025-04-26 02:58:02.340 
+2025-04-26 02:58:02.341 Number of parameters: 276084
+2025-04-26 02:58:02.342 Start running train at 04-26 10:57:59
+2025-04-26 02:58:02.344 Epoch: 0, Time: 0.0327, Loss: 7.0558, Loss_gcn: 2.3009, Loss_lpa:1.6959, Loss_lpa2:1.5295, TrainAcc: 0.1500, ValAcc: 0.7700, ES: 00/50 | BestVal=0.7700@E0
+2025-04-26 02:58:02.346 Epoch: 10, Time: 0.0286, Loss: 4.8102, Loss_gcn: 0.0961, Loss_lpa:1.6856, Loss_lpa2:1.5143, TrainAcc: 0.9857, ValAcc: 0.7420, ES: 06/50 | BestVal=0.7800@E4
+2025-04-26 02:58:02.347 Epoch: 20, Time: 0.0291, Loss: 4.7133, Loss_gcn: 0.0476, Loss_lpa:1.6734, Loss_lpa2:1.4961, TrainAcc: 0.9857, ValAcc: 0.7600, ES: 16/50 | BestVal=0.7800@E4
+2025-04-26 02:58:02.348 Epoch: 30, Time: 0.0285, Loss: 4.6345, Loss_gcn: 0.0233, Loss_lpa:1.6596, Loss_lpa2:1.4758, TrainAcc: 0.9929, ValAcc: 0.7840, ES: 00/50 | BestVal=0.7840@E30
+2025-04-26 02:58:02.350 Epoch: 40, Time: 0.0280, Loss: 4.5651, Loss_gcn: 0.0162, Loss_lpa:1.6440, Loss_lpa2:1.4525, TrainAcc: 0.9929, ValAcc: 0.7900, ES: 02/50 | BestVal=0.7920@E38
+2025-04-26 02:58:02.351 Epoch: 50, Time: 0.0286, Loss: 4.4970, Loss_gcn: 0.0203, Loss_lpa:1.6260, Loss_lpa2:1.4253, TrainAcc: 0.9929, ValAcc: 0.7960, ES: 01/50 | BestVal=0.7980@E49
+2025-04-26 02:58:02.353 Epoch: 60, Time: 0.0295, Loss: 4.3973, Loss_gcn: 0.0059, Loss_lpa:1.6043, Loss_lpa2:1.3935, TrainAcc: 1.0000, ValAcc: 0.7720, ES: 11/50 | BestVal=0.7980@E49
+2025-04-26 02:58:02.354 Epoch: 70, Time: 0.0293, Loss: 4.2919, Loss_gcn: 0.0056, Loss_lpa:1.5767, Loss_lpa2:1.3548, TrainAcc: 1.0000, ValAcc: 0.7640, ES: 21/50 | BestVal=0.7980@E49
+2025-04-26 02:58:02.355 Epoch: 80, Time: 0.0294, Loss: 4.1508, Loss_gcn: 0.0033, Loss_lpa:1.5381, Loss_lpa2:1.3047, TrainAcc: 1.0000, ValAcc: 0.7740, ES: 31/50 | BestVal=0.7980@E49
+2025-04-26 02:58:21.660 Epoch: 90, Time: 0.0299, Loss: 3.9385, Loss_gcn: 0.0070, Loss_lpa:1.4747, Loss_lpa2:1.2284, TrainAcc: 1.0000, ValAcc: 0.7700, ES: 41/50 | BestVal=0.7980@E49
+2025-04-26 02:58:21.662 /usr/local/miniconda3/lib/python3.8/site-packages/torch_sparse/storage.py:14: UserWarning: `layout` argument unset, using default layout "coo". This may lead to unexpected behaviour.
+2025-04-26 02:58:21.664   warnings.warn('`layout` argument unset, using default layout '
+2025-04-26 02:58:21.666 Early stopped, loading model from epoch-49
+2025-04-26 02:58:21.668 Finished running train at 04-26 10:58:02, running time = 2.95s.
+2025-04-26 02:58:21.670 [E] ValAcc: 0.7980, TestAcc: 0.8150
+2025-04-26 02:58:21.672 
+2025-04-26 02:58:21.673 (TA_P_E) ValAcc: 0.8200, TestAcc: 0.8360
+2025-04-26 02:58:21.675 
+2025-04-26 02:58:21.676 deberta-base
+2025-04-26 02:58:21.678 Loading pretrained LM features (title and abstract) ...
+2025-04-26 02:58:21.680 LM_emb_path: prt_lm_fewshot/cora/microsoft/deberta-base-seed3.emb
+2025-04-26 02:58:21.681 
+2025-04-26 02:58:21.683 Number of parameters: 276084
+2025-04-26 02:58:21.684 Start running train at 04-26 10:58:07
+2025-04-26 02:58:21.686 Epoch: 0, Time: 0.0336, Loss: 6.8586, Loss_gcn: 2.1475, Loss_lpa:1.6872, Loss_lpa2:1.5120, TrainAcc: 0.1071, ValAcc: 0.7160, ES: 00/50 | BestVal=0.7160@E0
+2025-04-26 02:58:21.687 Epoch: 10, Time: 0.0290, Loss: 4.7145, Loss_gcn: 0.0444, Loss_lpa:1.6771, Loss_lpa2:1.4965, TrainAcc: 0.9857, ValAcc: 0.7500, ES: 07/50 | BestVal=0.7560@E3
+2025-04-26 02:58:21.689 Epoch: 20, Time: 0.0306, Loss: 4.6539, Loss_gcn: 0.0318, Loss_lpa:1.6652, Loss_lpa2:1.4784, TrainAcc: 0.9929, ValAcc: 0.7740, ES: 01/50 | BestVal=0.7780@E19
+2025-04-26 02:58:21.691 Epoch: 30, Time: 0.0299, Loss: 4.5841, Loss_gcn: 0.0167, Loss_lpa:1.6519, Loss_lpa2:1.4578, TrainAcc: 1.0000, ValAcc: 0.7600, ES: 07/50 | BestVal=0.7780@E23
+2025-04-26 02:58:21.692 Epoch: 40, Time: 0.0299, Loss: 4.5185, Loss_gcn: 0.0137, Loss_lpa:1.6367, Loss_lpa2:1.4340, TrainAcc: 0.9929, ValAcc: 0.7520, ES: 17/50 | BestVal=0.7780@E23
+2025-04-26 02:58:21.694 Epoch: 50, Time: 0.0288, Loss: 4.4450, Loss_gcn: 0.0133, Loss_lpa:1.6191, Loss_lpa2:1.4063, TrainAcc: 0.9929, ValAcc: 0.7480, ES: 27/50 | BestVal=0.7780@E23
+2025-04-26 02:58:21.695 Epoch: 60, Time: 0.0353, Loss: 4.3552, Loss_gcn: 0.0104, Loss_lpa:1.5978, Loss_lpa2:1.3735, TrainAcc: 1.0000, ValAcc: 0.7360, ES: 37/50 | BestVal=0.7780@E23
+2025-04-26 02:58:21.697 Epoch: 70, Time: 0.0323, Loss: 4.2482, Loss_gcn: 0.0115, Loss_lpa:1.5700, Loss_lpa2:1.3334, TrainAcc: 0.9929, ValAcc: 0.7320, ES: 47/50 | BestVal=0.7780@E23
+2025-04-26 02:58:21.698 Early stopped, loading model from epoch-23
+2025-04-26 02:58:21.700 Finished running train at 04-26 10:58:10, running time = 2.24s.
+2025-04-26 02:58:21.702 [TA] ValAcc: 0.7780, TestAcc: 0.7770
+2025-04-26 02:58:21.703 
+2025-04-26 02:58:21.705 deberta-base
+2025-04-26 02:58:21.708 Loading top-k prediction features ...
+2025-04-26 02:58:21.710 
+2025-04-26 02:58:21.712 Number of parameters: 409204
+2025-04-26 02:58:21.714 Start running train at 04-26 10:58:13
+2025-04-26 02:58:21.716 Epoch: 0, Time: 0.0381, Loss: 7.2109, Loss_gcn: 2.4997, Loss_lpa:1.6872, Loss_lpa2:1.5120, TrainAcc: 0.0929, ValAcc: 0.4700, ES: 00/50 | BestVal=0.4700@E0
+2025-04-26 02:58:21.718 Epoch: 10, Time: 0.0331, Loss: 4.8575, Loss_gcn: 0.1873, Loss_lpa:1.6795, Loss_lpa2:1.4953, TrainAcc: 0.9357, ValAcc: 0.6840, ES: 01/50 | BestVal=0.6860@E9
+2025-04-26 02:58:21.720 Epoch: 20, Time: 0.0330, Loss: 4.7094, Loss_gcn: 0.0861, Loss_lpa:1.6703, Loss_lpa2:1.4765, TrainAcc: 0.9786, ValAcc: 0.7020, ES: 03/50 | BestVal=0.7300@E17
+2025-04-26 02:58:21.722 Epoch: 30, Time: 0.0334, Loss: 4.6334, Loss_gcn: 0.0617, Loss_lpa:1.6593, Loss_lpa2:1.4562, TrainAcc: 0.9857, ValAcc: 0.7380, ES: 00/50 | BestVal=0.7380@E30
+2025-04-26 02:58:21.723 Epoch: 40, Time: 0.0301, Loss: 4.5594, Loss_gcn: 0.0457, Loss_lpa:1.6469, Loss_lpa2:1.4334, TrainAcc: 0.9857, ValAcc: 0.6620, ES: 10/50 | BestVal=0.7380@E30
+2025-04-26 02:58:21.725 Epoch: 50, Time: 0.0306, Loss: 4.4738, Loss_gcn: 0.0265, Loss_lpa:1.6326, Loss_lpa2:1.4074, TrainAcc: 1.0000, ValAcc: 0.6240, ES: 20/50 | BestVal=0.7380@E30
+2025-04-26 02:58:21.726 Epoch: 60, Time: 0.0308, Loss: 4.4083, Loss_gcn: 0.0384, Loss_lpa:1.6158, Loss_lpa2:1.3771, TrainAcc: 0.9857, ValAcc: 0.5860, ES: 30/50 | BestVal=0.7380@E30
+2025-04-26 02:58:21.728 Epoch: 70, Time: 0.0310, Loss: 4.2937, Loss_gcn: 0.0179, Loss_lpa:1.5951, Loss_lpa2:1.3403, TrainAcc: 1.0000, ValAcc: 0.5920, ES: 40/50 | BestVal=0.7380@E30
+2025-04-26 02:58:21.729 Early stopped, loading model from epoch-30
+2025-04-26 02:58:21.731 Finished running train at 04-26 10:58:16, running time = 2.60s.
+2025-04-26 02:58:21.733 [P] ValAcc: 0.7380, TestAcc: 0.7580
+2025-04-26 02:58:21.734 
+2025-04-26 02:58:21.736 deberta-base
+2025-04-26 02:58:21.737 Loading pretrained LM features (explanations) ...
+2025-04-26 02:58:21.739 LM_emb_path: prt_lm_fewshot/cora2/microsoft/deberta-base-seed3.emb
+2025-04-26 02:58:21.740 
+2025-04-26 02:58:21.742 Number of parameters: 276084
+2025-04-26 02:58:21.743 Start running train at 04-26 10:58:18
+2025-04-26 02:58:21.745 Epoch: 0, Time: 0.0329, Loss: 6.9226, Loss_gcn: 2.2114, Loss_lpa:1.6872, Loss_lpa2:1.5120, TrainAcc: 0.1214, ValAcc: 0.5880, ES: 00/50 | BestVal=0.5880@E0
+2025-04-26 02:58:40.246 Epoch: 10, Time: 0.0325, Loss: 4.7290, Loss_gcn: 0.0599, Loss_lpa:1.6778, Loss_lpa2:1.4956, TrainAcc: 0.9857, ValAcc: 0.6340, ES: 00/50 | BestVal=0.6340@E10
+2025-04-26 02:58:40.249 Epoch: 20, Time: 0.0291, Loss: 4.6493, Loss_gcn: 0.0293, Loss_lpa:1.6665, Loss_lpa2:1.4768, TrainAcc: 0.9929, ValAcc: 0.7840, ES: 01/50 | BestVal=0.7860@E19
+2025-04-26 02:58:40.251 Epoch: 30, Time: 0.0293, Loss: 4.5833, Loss_gcn: 0.0183, Loss_lpa:1.6535, Loss_lpa2:1.4557, TrainAcc: 0.9857, ValAcc: 0.7880, ES: 05/50 | BestVal=0.7920@E25
+2025-04-26 02:58:40.253 Epoch: 40, Time: 0.0293, Loss: 4.5226, Loss_gcn: 0.0208, Loss_lpa:1.6386, Loss_lpa2:1.4316, TrainAcc: 0.9929, ValAcc: 0.7920, ES: 02/50 | BestVal=0.7960@E38
+2025-04-26 02:58:40.255 Epoch: 50, Time: 0.0298, Loss: 4.4489, Loss_gcn: 0.0201, Loss_lpa:1.6213, Loss_lpa2:1.4038, TrainAcc: 0.9929, ValAcc: 0.7800, ES: 12/50 | BestVal=0.7960@E38
+2025-04-26 02:58:40.257 Epoch: 60, Time: 0.0302, Loss: 4.3646, Loss_gcn: 0.0225, Loss_lpa:1.6005, Loss_lpa2:1.3708, TrainAcc: 0.9857, ValAcc: 0.7720, ES: 22/50 | BestVal=0.7960@E38
+2025-04-26 02:58:40.258 Epoch: 70, Time: 0.0299, Loss: 4.2513, Loss_gcn: 0.0164, Loss_lpa:1.5738, Loss_lpa2:1.3305, TrainAcc: 0.9929, ValAcc: 0.7620, ES: 32/50 | BestVal=0.7960@E38
+2025-04-26 02:58:40.260 Epoch: 80, Time: 0.0261, Loss: 4.1029, Loss_gcn: 0.0139, Loss_lpa:1.5352, Loss_lpa2:1.2769, TrainAcc: 0.9929, ValAcc: 0.7620, ES: 42/50 | BestVal=0.7960@E38
+2025-04-26 02:58:40.261 Early stopped, loading model from epoch-38
+2025-04-26 02:58:40.263 Finished running train at 04-26 10:58:21, running time = 2.65s.
+2025-04-26 02:58:40.264 [E] ValAcc: 0.7960, TestAcc: 0.8200
+2025-04-26 02:58:40.266 
+2025-04-26 02:58:40.268 (TA_P_E) ValAcc: 0.7900, TestAcc: 0.8210
+2025-04-26 02:58:40.270 
+2025-04-26 02:58:40.271 [TA] ValACC: 0.7710 ± 0.0252, TestAcc: 0.7630 ± 0.0134
+2025-04-26 02:58:40.273 [P] ValACC: 0.7605 ± 0.0216, TestAcc: 0.7460 ± 0.0157
+2025-04-26 02:58:40.275 [E] ValACC: 0.8135 ± 0.0222, TestAcc: 0.8085 ± 0.0153
+2025-04-26 02:58:40.276 [ensemble] ValACC: 0.8195 ± 0.0210, TestAcc: 0.8275 ± 0.0066
+
+
+
+
+
+
+2025-04-26 02:58:40.278 deberta-base
+2025-04-26 02:58:40.279 Loading pretrained LM features (title and abstract) ...
+2025-04-26 02:58:40.281 LM_emb_path: prt_lm_fewshot/citeseer/microsoft/deberta-base-seed0.emb
+2025-04-26 02:58:40.282 
+2025-04-26 02:58:40.284 Number of parameters: 273708
+2025-04-26 02:58:40.285 Start running train at 04-26 10:58:26
+2025-04-26 02:58:40.287 Epoch: 0, Time: 0.4611, Loss: 12.4316, Loss_gcn: 2.4738, Loss_lpa:1.4724, Loss_lpa2:1.4630, TrainAcc: 0.1083, ValAcc: 0.5960, ES: 00/50 | BestVal=0.5960@E0
+2025-04-26 02:58:40.288 Epoch: 10, Time: 0.0281, Loss: 9.8751, Loss_gcn: 0.0396, Loss_lpa:1.4680, Loss_lpa2:1.4427, TrainAcc: 0.9917, ValAcc: 0.5240, ES: 10/50 | BestVal=0.5960@E0
+2025-04-26 02:58:40.290 Epoch: 20, Time: 0.0311, Loss: 9.7083, Loss_gcn: 0.0076, Loss_lpa:1.4623, Loss_lpa2:1.4204, TrainAcc: 1.0000, ValAcc: 0.6160, ES: 00/50 | BestVal=0.6160@E20
+2025-04-26 02:58:40.291 Epoch: 30, Time: 0.0283, Loss: 9.5747, Loss_gcn: 0.0217, Loss_lpa:1.4557, Loss_lpa2:1.3961, TrainAcc: 0.9833, ValAcc: 0.6000, ES: 08/50 | BestVal=0.6280@E22
+2025-04-26 02:58:40.293 Epoch: 40, Time: 0.0284, Loss: 9.3926, Loss_gcn: 0.0043, Loss_lpa:1.4479, Loss_lpa2:1.3690, TrainAcc: 1.0000, ValAcc: 0.5960, ES: 18/50 | BestVal=0.6280@E22
+2025-04-26 02:58:40.295 Epoch: 50, Time: 0.0286, Loss: 9.2090, Loss_gcn: 0.0096, Loss_lpa:1.4385, Loss_lpa2:1.3381, TrainAcc: 0.9917, ValAcc: 0.6000, ES: 28/50 | BestVal=0.6280@E22
+2025-04-26 02:58:40.296 Epoch: 60, Time: 0.0286, Loss: 8.9806, Loss_gcn: 0.0056, Loss_lpa:1.4267, Loss_lpa2:1.3014, TrainAcc: 1.0000, ValAcc: 0.5840, ES: 38/50 | BestVal=0.6280@E22
+2025-04-26 02:58:40.298 Epoch: 70, Time: 0.0292, Loss: 8.6997, Loss_gcn: 0.0043, Loss_lpa:1.4112, Loss_lpa2:1.2559, TrainAcc: 1.0000, ValAcc: 0.5800, ES: 48/50 | BestVal=0.6280@E22
+2025-04-26 02:58:40.299 Early stopped, loading model from epoch-22
+2025-04-26 02:58:40.300 Finished running train at 04-26 10:58:28, running time = 2.51s.
+2025-04-26 02:58:40.302 [TA] ValAcc: 0.6280, TestAcc: 0.6480
+2025-04-26 02:58:40.303 
+2025-04-26 02:58:40.305 deberta-base
+2025-04-26 02:58:40.306 Loading top-k prediction features ...
+2025-04-26 02:58:40.308 
+2025-04-26 02:58:40.309 Number of parameters: 406572
+2025-04-26 02:58:40.310 Start running train at 04-26 10:58:29
+2025-04-26 02:58:40.312 Epoch: 0, Time: 0.0345, Loss: 11.9377, Loss_gcn: 1.9799, Loss_lpa:1.4724, Loss_lpa2:1.4630, TrainAcc: 0.2083, ValAcc: 0.3900, ES: 00/50 | BestVal=0.3900@E0
+2025-04-26 02:58:40.314 Epoch: 10, Time: 0.0291, Loss: 10.3185, Loss_gcn: 0.4822, Loss_lpa:1.4682, Loss_lpa2:1.4428, TrainAcc: 0.8000, ValAcc: 0.1500, ES: 10/50 | BestVal=0.3900@E0
+2025-04-26 02:58:40.315 Epoch: 20, Time: 0.0321, Loss: 10.0415, Loss_gcn: 0.3355, Loss_lpa:1.4633, Loss_lpa2:1.4211, TrainAcc: 0.8833, ValAcc: 0.5860, ES: 00/50 | BestVal=0.5860@E20
+2025-04-26 02:58:40.317 Epoch: 30, Time: 0.0292, Loss: 9.7923, Loss_gcn: 0.2277, Loss_lpa:1.4575, Loss_lpa2:1.3978, TrainAcc: 0.8833, ValAcc: 0.6720, ES: 01/50 | BestVal=0.6740@E29
+2025-04-26 02:58:40.318 Epoch: 40, Time: 0.0289, Loss: 9.6444, Loss_gcn: 0.2365, Loss_lpa:1.4507, Loss_lpa2:1.3719, TrainAcc: 0.9083, ValAcc: 0.6600, ES: 09/50 | BestVal=0.6760@E31
+2025-04-26 02:58:40.319 Epoch: 50, Time: 0.0294, Loss: 9.4301, Loss_gcn: 0.1995, Loss_lpa:1.4431, Loss_lpa2:1.3427, TrainAcc: 0.9083, ValAcc: 0.5460, ES: 19/50 | BestVal=0.6760@E31
+2025-04-26 02:58:40.321 Epoch: 60, Time: 0.0303, Loss: 9.2092, Loss_gcn: 0.1856, Loss_lpa:1.4341, Loss_lpa2:1.3085, TrainAcc: 0.9333, ValAcc: 0.6160, ES: 29/50 | BestVal=0.6760@E31
+2025-04-26 02:58:40.322 Epoch: 70, Time: 0.0296, Loss: 8.9595, Loss_gcn: 0.1888, Loss_lpa:1.4234, Loss_lpa2:1.2668, TrainAcc: 0.9167, ValAcc: 0.6580, ES: 39/50 | BestVal=0.6760@E31
+2025-04-26 02:58:40.324 Epoch: 80, Time: 0.0318, Loss: 8.5554, Loss_gcn: 0.1214, Loss_lpa:1.4095, Loss_lpa2:1.2111, TrainAcc: 0.9417, ValAcc: 0.6920, ES: 00/50 | BestVal=0.6920@E80
+2025-04-26 02:58:40.325 Epoch: 90, Time: 0.0291, Loss: 8.1351, Loss_gcn: 0.1894, Loss_lpa:1.3923, Loss_lpa2:1.1299, TrainAcc: 0.9333, ValAcc: 0.6240, ES: 08/50 | BestVal=0.7060@E82
+2025-04-26 02:58:40.327 Epoch: 100, Time: 0.0320, Loss: 7.9902, Loss_gcn: 0.7240, Loss_lpa:1.3689, Loss_lpa2:1.0168, TrainAcc: 0.8750, ValAcc: 0.5580, ES: 18/50 | BestVal=0.7060@E82
+2025-04-26 02:58:40.328 Epoch: 110, Time: 0.0242, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.1667, ValAcc: 0.1620, ES: 28/50 | BestVal=0.7060@E82
+2025-04-26 02:58:40.329 Epoch: 120, Time: 0.0289, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.1667, ValAcc: 0.1620, ES: 38/50 | BestVal=0.7060@E82
+2025-04-26 02:58:40.331 Epoch: 130, Time: 0.0247, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.1667, ValAcc: 0.1620, ES: 48/50 | BestVal=0.7060@E82
+2025-04-26 02:58:40.332 Early stopped, loading model from epoch-82
+2025-04-26 02:58:40.334 Finished running train at 04-26 10:58:33, running time = 3.91s.
+2025-04-26 02:58:40.335 [P] ValAcc: 0.7060, TestAcc: 0.6660
+2025-04-26 02:58:40.337 
+2025-04-26 02:58:40.338 deberta-base
+2025-04-26 02:58:40.339 Loading pretrained LM features (explanations) ...
+2025-04-26 02:58:40.341 LM_emb_path: prt_lm_fewshot/citeseer2/microsoft/deberta-base-seed0.emb
+2025-04-26 02:58:40.342 
+2025-04-26 02:58:40.344 Number of parameters: 273708
+2025-04-26 02:58:40.346 Start running train at 04-26 10:58:33
+2025-04-26 02:58:40.347 Epoch: 0, Time: 0.0328, Loss: 12.2384, Loss_gcn: 2.2806, Loss_lpa:1.4724, Loss_lpa2:1.4630, TrainAcc: 0.0750, ValAcc: 0.6940, ES: 00/50 | BestVal=0.6940@E0
+2025-04-26 02:58:40.348 Epoch: 10, Time: 0.0239, Loss: 9.9568, Loss_gcn: 0.1229, Loss_lpa:1.4675, Loss_lpa2:1.4425, TrainAcc: 0.9750, ValAcc: 0.6380, ES: 09/50 | BestVal=0.7020@E1
+2025-04-26 02:58:40.350 Epoch: 20, Time: 0.0278, Loss: 9.7347, Loss_gcn: 0.0368, Loss_lpa:1.4616, Loss_lpa2:1.4200, TrainAcc: 0.9917, ValAcc: 0.6260, ES: 19/50 | BestVal=0.7020@E1
+2025-04-26 02:58:40.351 Epoch: 30, Time: 0.0264, Loss: 9.5893, Loss_gcn: 0.0388, Loss_lpa:1.4548, Loss_lpa2:1.3958, TrainAcc: 0.9833, ValAcc: 0.6360, ES: 29/50 | BestVal=0.7020@E1
+2025-04-26 02:58:40.352 Epoch: 40, Time: 0.0286, Loss: 9.3951, Loss_gcn: 0.0065, Loss_lpa:1.4467, Loss_lpa2:1.3693, TrainAcc: 1.0000, ValAcc: 0.6460, ES: 39/50 | BestVal=0.7020@E1
+2025-04-26 02:58:40.354 Epoch: 50, Time: 0.0290, Loss: 9.2123, Loss_gcn: 0.0098, Loss_lpa:1.4371, Loss_lpa2:1.3388, TrainAcc: 1.0000, ValAcc: 0.6440, ES: 49/50 | BestVal=0.7020@E1
+2025-04-26 02:58:40.355 Early stopped, loading model from epoch-1
+2025-04-26 02:58:40.356 Finished running train at 04-26 10:58:34, running time = 1.43s.
+2025-04-26 02:58:40.358 [E] ValAcc: 0.7020, TestAcc: 0.7020
+2025-04-26 02:58:40.359 
+2025-04-26 02:58:40.360 (TA_P_E) ValAcc: 0.7320, TestAcc: 0.7350
+2025-04-26 02:58:40.362 
+2025-04-26 02:58:40.363 deberta-base
+2025-04-26 02:58:40.364 Loading pretrained LM features (title and abstract) ...
+2025-04-26 02:58:40.366 LM_emb_path: prt_lm_fewshot/citeseer/microsoft/deberta-base-seed1.emb
+2025-04-26 02:58:40.367 
+2025-04-26 02:58:40.368 Number of parameters: 273708
+2025-04-26 02:58:40.370 Start running train at 04-26 10:58:35
+2025-04-26 02:58:40.371 Epoch: 0, Time: 0.0318, Loss: 12.1283, Loss_gcn: 2.0562, Loss_lpa:1.4877, Loss_lpa2:1.4801, TrainAcc: 0.1917, ValAcc: 0.6760, ES: 00/50 | BestVal=0.6760@E0
+2025-04-26 02:58:40.373 Epoch: 10, Time: 0.0278, Loss: 9.9926, Loss_gcn: 0.0414, Loss_lpa:1.4835, Loss_lpa2:1.4600, TrainAcc: 0.9917, ValAcc: 0.6600, ES: 09/50 | BestVal=0.6940@E1
+2025-04-26 02:58:40.374 Epoch: 20, Time: 0.0288, Loss: 9.8330, Loss_gcn: 0.0171, Loss_lpa:1.4787, Loss_lpa2:1.4375, TrainAcc: 0.9917, ValAcc: 0.6380, ES: 19/50 | BestVal=0.6940@E1
+2025-04-26 02:58:40.375 Epoch: 30, Time: 0.0282, Loss: 9.6746, Loss_gcn: 0.0081, Loss_lpa:1.4731, Loss_lpa2:1.4126, TrainAcc: 1.0000, ValAcc: 0.6440, ES: 29/50 | BestVal=0.6940@E1
+2025-04-26 02:58:40.377 Epoch: 40, Time: 0.0291, Loss: 9.5027, Loss_gcn: 0.0042, Loss_lpa:1.4665, Loss_lpa2:1.3848, TrainAcc: 1.0000, ValAcc: 0.6500, ES: 39/50 | BestVal=0.6940@E1
+2025-04-26 02:58:54.141 Epoch: 50, Time: 0.0296, Loss: 9.3114, Loss_gcn: 0.0068, Loss_lpa:1.4583, Loss_lpa2:1.3528, TrainAcc: 1.0000, ValAcc: 0.6560, ES: 49/50 | BestVal=0.6940@E1
+2025-04-26 02:58:54.142 Early stopped, loading model from epoch-1
+2025-04-26 02:58:54.145 Finished running train at 04-26 10:58:37, running time = 1.50s.
+2025-04-26 02:58:54.147 [TA] ValAcc: 0.6940, TestAcc: 0.7090
+2025-04-26 02:58:54.149 
+2025-04-26 02:58:54.151 deberta-base
+2025-04-26 02:58:54.153 Loading top-k prediction features ...
+2025-04-26 02:58:54.155 
+2025-04-26 02:58:54.157 Number of parameters: 406572
+2025-04-26 02:58:54.158 Start running train at 04-26 10:58:37
+2025-04-26 02:58:54.159 Epoch: 0, Time: 0.0338, Loss: 12.3255, Loss_gcn: 2.2534, Loss_lpa:1.4877, Loss_lpa2:1.4801, TrainAcc: 0.2000, ValAcc: 0.5500, ES: 00/50 | BestVal=0.5500@E0
+2025-04-26 02:58:54.161 Epoch: 10, Time: 0.0319, Loss: 10.4223, Loss_gcn: 0.4648, Loss_lpa:1.4843, Loss_lpa2:1.4609, TrainAcc: 0.8500, ValAcc: 0.6160, ES: 00/50 | BestVal=0.6160@E10
+2025-04-26 02:58:54.162 Epoch: 20, Time: 0.0316, Loss: 10.1171, Loss_gcn: 0.2844, Loss_lpa:1.4814, Loss_lpa2:1.4399, TrainAcc: 0.8583, ValAcc: 0.6800, ES: 00/50 | BestVal=0.6800@E20
+2025-04-26 02:58:54.164 Epoch: 30, Time: 0.0293, Loss: 9.8956, Loss_gcn: 0.1997, Loss_lpa:1.4777, Loss_lpa2:1.4169, TrainAcc: 0.9333, ValAcc: 0.6620, ES: 09/50 | BestVal=0.6820@E21
+2025-04-26 02:58:54.165 Epoch: 40, Time: 0.0302, Loss: 9.6817, Loss_gcn: 0.1391, Loss_lpa:1.4730, Loss_lpa2:1.3913, TrainAcc: 0.9500, ValAcc: 0.6600, ES: 03/50 | BestVal=0.6820@E37
+2025-04-26 02:58:54.167 Epoch: 50, Time: 0.0290, Loss: 9.4969, Loss_gcn: 0.1298, Loss_lpa:1.4670, Loss_lpa2:1.3621, TrainAcc: 0.9583, ValAcc: 0.6120, ES: 13/50 | BestVal=0.6820@E37
+2025-04-26 02:58:54.168 Epoch: 60, Time: 0.0304, Loss: 9.2593, Loss_gcn: 0.1000, Loss_lpa:1.4592, Loss_lpa2:1.3276, TrainAcc: 0.9583, ValAcc: 0.6300, ES: 04/50 | BestVal=0.6860@E56
+2025-04-26 02:58:54.170 Epoch: 70, Time: 0.0305, Loss: 9.0155, Loss_gcn: 0.1138, Loss_lpa:1.4493, Loss_lpa2:1.2849, TrainAcc: 0.9583, ValAcc: 0.6440, ES: 05/50 | BestVal=0.7000@E65
+2025-04-26 02:58:54.171 Epoch: 80, Time: 0.0303, Loss: 8.6125, Loss_gcn: 0.0586, Loss_lpa:1.4353, Loss_lpa2:1.2273, TrainAcc: 0.9833, ValAcc: 0.5760, ES: 15/50 | BestVal=0.7000@E65
+2025-04-26 02:58:54.172 Epoch: 90, Time: 0.0304, Loss: 8.1911, Loss_gcn: 0.1279, Loss_lpa:1.4185, Loss_lpa2:1.1456, TrainAcc: 0.9750, ValAcc: 0.5620, ES: 25/50 | BestVal=0.7000@E65
+2025-04-26 02:58:54.174 Epoch: 100, Time: 0.0298, Loss: 8.1473, Loss_gcn: 0.7094, Loss_lpa:1.3967, Loss_lpa2:1.0416, TrainAcc: 0.9167, ValAcc: 0.6480, ES: 35/50 | BestVal=0.7000@E65
+2025-04-26 02:58:54.175 Epoch: 110, Time: 0.0291, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.1667, ValAcc: 0.1680, ES: 45/50 | BestVal=0.7000@E65
+2025-04-26 02:58:54.177 Early stopped, loading model from epoch-65
+2025-04-26 02:58:54.178 Finished running train at 04-26 10:58:40, running time = 3.47s.
+2025-04-26 02:58:54.179 [P] ValAcc: 0.7000, TestAcc: 0.6870
+2025-04-26 02:58:54.181 
+2025-04-26 02:58:54.182 deberta-base
+2025-04-26 02:58:54.183 Loading pretrained LM features (explanations) ...
+2025-04-26 02:58:54.185 LM_emb_path: prt_lm_fewshot/citeseer2/microsoft/deberta-base-seed1.emb
+2025-04-26 02:58:54.186 
+2025-04-26 02:58:54.187 Number of parameters: 273708
+2025-04-26 02:58:54.189 Start running train at 04-26 10:58:41
+2025-04-26 02:58:54.190 Epoch: 0, Time: 0.0314, Loss: 12.1750, Loss_gcn: 2.1029, Loss_lpa:1.4877, Loss_lpa2:1.4801, TrainAcc: 0.2000, ValAcc: 0.6900, ES: 00/50 | BestVal=0.6900@E0
+2025-04-26 02:58:54.191 Epoch: 10, Time: 0.0280, Loss: 10.0302, Loss_gcn: 0.0801, Loss_lpa:1.4832, Loss_lpa2:1.4598, TrainAcc: 0.9667, ValAcc: 0.6420, ES: 08/50 | BestVal=0.7000@E2
+2025-04-26 02:58:54.193 Epoch: 20, Time: 0.0285, Loss: 9.8355, Loss_gcn: 0.0210, Loss_lpa:1.4786, Loss_lpa2:1.4372, TrainAcc: 1.0000, ValAcc: 0.6580, ES: 18/50 | BestVal=0.7000@E2
+2025-04-26 02:58:54.194 Epoch: 30, Time: 0.0290, Loss: 9.6747, Loss_gcn: 0.0094, Loss_lpa:1.4731, Loss_lpa2:1.4124, TrainAcc: 1.0000, ValAcc: 0.6720, ES: 28/50 | BestVal=0.7000@E2
+2025-04-26 02:58:54.196 Epoch: 40, Time: 0.0291, Loss: 9.5008, Loss_gcn: 0.0031, Loss_lpa:1.4665, Loss_lpa2:1.3847, TrainAcc: 1.0000, ValAcc: 0.6700, ES: 38/50 | BestVal=0.7000@E2
+2025-04-26 02:58:54.197 Epoch: 50, Time: 0.0292, Loss: 9.3106, Loss_gcn: 0.0065, Loss_lpa:1.4585, Loss_lpa2:1.3527, TrainAcc: 1.0000, ValAcc: 0.6620, ES: 48/50 | BestVal=0.7000@E2
+2025-04-26 02:58:54.198 Early stopped, loading model from epoch-2
+2025-04-26 02:58:54.200 Finished running train at 04-26 10:58:42, running time = 1.52s.
+2025-04-26 02:58:54.201 [E] ValAcc: 0.7000, TestAcc: 0.6990
+2025-04-26 02:58:54.202 
+2025-04-26 02:58:54.204 (TA_P_E) ValAcc: 0.7260, TestAcc: 0.7350
+2025-04-26 02:58:54.206 
+2025-04-26 02:58:54.207 deberta-base
+2025-04-26 02:58:54.208 Loading pretrained LM features (title and abstract) ...
+2025-04-26 02:58:54.210 LM_emb_path: prt_lm_fewshot/citeseer/microsoft/deberta-base-seed2.emb
+2025-04-26 02:58:54.211 
+2025-04-26 02:58:54.212 Number of parameters: 273708
+2025-04-26 02:58:54.214 Start running train at 04-26 10:58:43
+2025-04-26 02:58:54.215 Epoch: 0, Time: 0.0320, Loss: 12.4868, Loss_gcn: 2.3249, Loss_lpa:1.4800, Loss_lpa2:1.4969, TrainAcc: 0.1750, ValAcc: 0.6340, ES: 00/50 | BestVal=0.6340@E0
+2025-04-26 02:58:54.216 Epoch: 10, Time: 0.0282, Loss: 10.0783, Loss_gcn: 0.0527, Loss_lpa:1.4755, Loss_lpa2:1.4742, TrainAcc: 0.9833, ValAcc: 0.6620, ES: 03/50 | BestVal=0.6680@E7
+2025-04-26 02:58:54.218 Epoch: 20, Time: 0.0288, Loss: 9.9006, Loss_gcn: 0.0239, Loss_lpa:1.4704, Loss_lpa2:1.4494, TrainAcc: 0.9917, ValAcc: 0.6540, ES: 02/50 | BestVal=0.6680@E18
+2025-04-26 02:58:54.219 Epoch: 30, Time: 0.0286, Loss: 9.7286, Loss_gcn: 0.0126, Loss_lpa:1.4646, Loss_lpa2:1.4226, TrainAcc: 1.0000, ValAcc: 0.6500, ES: 12/50 | BestVal=0.6680@E18
+2025-04-26 02:58:54.220 Epoch: 40, Time: 0.0289, Loss: 9.5486, Loss_gcn: 0.0078, Loss_lpa:1.4577, Loss_lpa2:1.3936, TrainAcc: 1.0000, ValAcc: 0.6380, ES: 22/50 | BestVal=0.6680@E18
+2025-04-26 02:58:54.222 Epoch: 50, Time: 0.0291, Loss: 9.3558, Loss_gcn: 0.0119, Loss_lpa:1.4493, Loss_lpa2:1.3611, TrainAcc: 1.0000, ValAcc: 0.6280, ES: 32/50 | BestVal=0.6680@E18
+2025-04-26 02:58:54.223 Epoch: 60, Time: 0.0291, Loss: 9.1301, Loss_gcn: 0.0132, Loss_lpa:1.4392, Loss_lpa2:1.3237, TrainAcc: 0.9917, ValAcc: 0.5680, ES: 42/50 | BestVal=0.6680@E18
+2025-04-26 02:58:54.224 Early stopped, loading model from epoch-18
+2025-04-26 02:58:54.226 Finished running train at 04-26 10:58:45, running time = 2.00s.
+2025-04-26 02:58:54.227 [TA] ValAcc: 0.6680, TestAcc: 0.6490
+2025-04-26 02:58:54.228 
+2025-04-26 02:58:54.230 deberta-base
+2025-04-26 02:58:54.231 Loading top-k prediction features ...
+2025-04-26 02:58:54.232 
+2025-04-26 02:58:54.234 Number of parameters: 406572
+2025-04-26 02:58:54.235 Start running train at 04-26 10:58:45
+2025-04-26 02:58:54.236 Epoch: 0, Time: 0.0327, Loss: 12.3284, Loss_gcn: 2.1665, Loss_lpa:1.4800, Loss_lpa2:1.4969, TrainAcc: 0.1500, ValAcc: 0.5940, ES: 00/50 | BestVal=0.5940@E0
+2025-04-26 02:58:54.238 Epoch: 10, Time: 0.0286, Loss: 10.5867, Loss_gcn: 0.5605, Loss_lpa:1.4771, Loss_lpa2:1.4740, TrainAcc: 0.8000, ValAcc: 0.5380, ES: 05/50 | BestVal=0.6040@E5
+2025-04-26 02:58:54.239 Epoch: 20, Time: 0.0290, Loss: 10.2976, Loss_gcn: 0.4157, Loss_lpa:1.4739, Loss_lpa2:1.4497, TrainAcc: 0.8333, ValAcc: 0.6060, ES: 02/50 | BestVal=0.6100@E18
+2025-04-26 02:58:54.241 Epoch: 30, Time: 0.0297, Loss: 10.0522, Loss_gcn: 0.3240, Loss_lpa:1.4701, Loss_lpa2:1.4238, TrainAcc: 0.8583, ValAcc: 0.6080, ES: 07/50 | BestVal=0.6120@E23
+2025-04-26 02:58:54.242 Epoch: 40, Time: 0.0290, Loss: 9.8245, Loss_gcn: 0.2630, Loss_lpa:1.4654, Loss_lpa2:1.3959, TrainAcc: 0.8833, ValAcc: 0.6360, ES: 05/50 | BestVal=0.6460@E35
+2025-04-26 02:58:54.243 Epoch: 50, Time: 0.0297, Loss: 9.6385, Loss_gcn: 0.2625, Loss_lpa:1.4601, Loss_lpa2:1.3648, TrainAcc: 0.9083, ValAcc: 0.6040, ES: 15/50 | BestVal=0.6460@E35
+2025-04-26 02:58:54.244 Epoch: 60, Time: 0.0305, Loss: 9.3820, Loss_gcn: 0.2164, Loss_lpa:1.4538, Loss_lpa2:1.3296, TrainAcc: 0.9417, ValAcc: 0.6220, ES: 25/50 | BestVal=0.6460@E35
+2025-04-26 02:58:54.247 Epoch: 70, Time: 0.0303, Loss: 9.1195, Loss_gcn: 0.2030, Loss_lpa:1.4467, Loss_lpa2:1.2879, TrainAcc: 0.9167, ValAcc: 0.5260, ES: 35/50 | BestVal=0.6460@E35
+2025-04-26 02:58:54.249 Epoch: 80, Time: 0.0303, Loss: 8.7566, Loss_gcn: 0.1519, Loss_lpa:1.4391, Loss_lpa2:1.2354, TrainAcc: 0.9417, ValAcc: 0.6320, ES: 45/50 | BestVal=0.6460@E35
+2025-04-26 02:58:54.252 Early stopped, loading model from epoch-35
+2025-04-26 02:58:54.254 Finished running train at 04-26 10:58:48, running time = 2.59s.
+2025-04-26 02:58:54.255 [P] ValAcc: 0.6460, TestAcc: 0.6270
+2025-04-26 02:58:54.258 
+2025-04-26 02:58:54.259 deberta-base
+2025-04-26 02:58:54.261 Loading pretrained LM features (explanations) ...
+2025-04-26 02:58:54.263 LM_emb_path: prt_lm_fewshot/citeseer2/microsoft/deberta-base-seed2.emb
+2025-04-26 02:58:54.264 
+2025-04-26 02:58:54.266 Number of parameters: 273708
+2025-04-26 02:58:54.268 Start running train at 04-26 10:58:48
+2025-04-26 02:58:54.269 Epoch: 0, Time: 0.0316, Loss: 12.5255, Loss_gcn: 2.3636, Loss_lpa:1.4800, Loss_lpa2:1.4969, TrainAcc: 0.1167, ValAcc: 0.6720, ES: 00/50 | BestVal=0.6720@E0
+2025-04-26 02:58:54.271 Epoch: 10, Time: 0.0294, Loss: 10.1788, Loss_gcn: 0.1524, Loss_lpa:1.4752, Loss_lpa2:1.4743, TrainAcc: 0.9500, ValAcc: 0.6420, ES: 10/50 | BestVal=0.6720@E0
+2025-04-26 02:58:54.272 Epoch: 20, Time: 0.0295, Loss: 9.9425, Loss_gcn: 0.0620, Loss_lpa:1.4699, Loss_lpa2:1.4501, TrainAcc: 0.9750, ValAcc: 0.6660, ES: 20/50 | BestVal=0.6720@E0
+2025-04-26 02:58:54.274 Epoch: 30, Time: 0.0317, Loss: 9.7522, Loss_gcn: 0.0300, Loss_lpa:1.4642, Loss_lpa2:1.4238, TrainAcc: 0.9917, ValAcc: 0.6800, ES: 00/50 | BestVal=0.6800@E30
+2025-04-26 02:58:54.275 Epoch: 40, Time: 0.0289, Loss: 9.5670, Loss_gcn: 0.0166, Loss_lpa:1.4576, Loss_lpa2:1.3953, TrainAcc: 1.0000, ValAcc: 0.6660, ES: 05/50 | BestVal=0.6820@E35
+2025-04-26 02:58:54.277 Epoch: 50, Time: 0.0294, Loss: 9.3734, Loss_gcn: 0.0152, Loss_lpa:1.4497, Loss_lpa2:1.3635, TrainAcc: 0.9917, ValAcc: 0.6700, ES: 15/50 | BestVal=0.6820@E35
+2025-04-26 02:59:00.513 Epoch: 60, Time: 0.0289, Loss: 9.1575, Loss_gcn: 0.0219, Loss_lpa:1.4404, Loss_lpa2:1.3268, TrainAcc: 0.9917, ValAcc: 0.6740, ES: 25/50 | BestVal=0.6820@E35
+2025-04-26 02:59:00.514 Epoch: 70, Time: 0.0292, Loss: 8.8755, Loss_gcn: 0.0080, Loss_lpa:1.4287, Loss_lpa2:1.2826, TrainAcc: 1.0000, ValAcc: 0.6660, ES: 35/50 | BestVal=0.6820@E35
+2025-04-26 02:59:00.517 Epoch: 80, Time: 0.0290, Loss: 8.5318, Loss_gcn: 0.0131, Loss_lpa:1.4135, Loss_lpa2:1.2250, TrainAcc: 0.9917, ValAcc: 0.6520, ES: 45/50 | BestVal=0.6820@E35
+2025-04-26 02:59:00.519 Early stopped, loading model from epoch-35
+2025-04-26 02:59:00.521 Finished running train at 04-26 10:58:51, running time = 2.52s.
+2025-04-26 02:59:00.523 [E] ValAcc: 0.6820, TestAcc: 0.6900
+2025-04-26 02:59:00.525 
+2025-04-26 02:59:00.527 (TA_P_E) ValAcc: 0.6900, TestAcc: 0.7100
+2025-04-26 02:59:00.529 
+2025-04-26 02:59:00.530 deberta-base
+2025-04-26 02:59:00.532 Loading pretrained LM features (title and abstract) ...
+2025-04-26 02:59:00.533 LM_emb_path: prt_lm_fewshot/citeseer/microsoft/deberta-base-seed3.emb
+2025-04-26 02:59:00.535 
+2025-04-26 02:59:00.536 Number of parameters: 273708
+2025-04-26 02:59:00.538 Start running train at 04-26 10:58:52
+2025-04-26 02:59:00.540 Epoch: 0, Time: 0.0320, Loss: 11.9095, Loss_gcn: 2.0641, Loss_lpa:1.4711, Loss_lpa2:1.4438, TrainAcc: 0.1833, ValAcc: 0.6940, ES: 00/50 | BestVal=0.6940@E0
+2025-04-26 02:59:00.541 Epoch: 10, Time: 0.0285, Loss: 9.7869, Loss_gcn: 0.0685, Loss_lpa:1.4670, Loss_lpa2:1.4227, TrainAcc: 0.9833, ValAcc: 0.6000, ES: 08/50 | BestVal=0.7160@E2
+2025-04-26 02:59:00.543 Epoch: 20, Time: 0.0307, Loss: 9.5928, Loss_gcn: 0.0166, Loss_lpa:1.4624, Loss_lpa2:1.3989, TrainAcc: 1.0000, ValAcc: 0.6860, ES: 18/50 | BestVal=0.7160@E2
+2025-04-26 02:59:00.544 Epoch: 30, Time: 0.0322, Loss: 9.4426, Loss_gcn: 0.0234, Loss_lpa:1.4572, Loss_lpa2:1.3728, TrainAcc: 0.9917, ValAcc: 0.7220, ES: 00/50 | BestVal=0.7220@E30
+2025-04-26 02:59:00.546 Epoch: 40, Time: 0.0300, Loss: 9.2560, Loss_gcn: 0.0106, Loss_lpa:1.4509, Loss_lpa2:1.3439, TrainAcc: 1.0000, ValAcc: 0.7020, ES: 06/50 | BestVal=0.7260@E34
+2025-04-26 02:59:00.548 Epoch: 50, Time: 0.0303, Loss: 9.0600, Loss_gcn: 0.0126, Loss_lpa:1.4430, Loss_lpa2:1.3111, TrainAcc: 0.9917, ValAcc: 0.7080, ES: 16/50 | BestVal=0.7260@E34
+2025-04-26 02:59:00.550 Epoch: 60, Time: 0.0337, Loss: 8.8188, Loss_gcn: 0.0034, Loss_lpa:1.4328, Loss_lpa2:1.2728, TrainAcc: 1.0000, ValAcc: 0.7040, ES: 26/50 | BestVal=0.7260@E34
+2025-04-26 02:59:00.551 /home/pkgs/LLM4GraphTopology/core_fewshot/data_utils/load_citeseer.py:58: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+2025-04-26 02:59:00.552   data.y = torch.tensor(processed_data.y).long()
+2025-04-26 02:59:00.554 /usr/local/miniconda3/lib/python3.8/site-packages/torch_sparse/storage.py:14: UserWarning: `layout` argument unset, using default layout "coo". This may lead to unexpected behaviour.
+2025-04-26 02:59:00.555   warnings.warn('`layout` argument unset, using default layout '
+2025-04-26 02:59:00.557 Epoch: 70, Time: 0.0293, Loss: 8.5451, Loss_gcn: 0.0136, Loss_lpa:1.4196, Loss_lpa2:1.2262, TrainAcc: 0.9917, ValAcc: 0.7180, ES: 36/50 | BestVal=0.7260@E34
+2025-04-26 02:59:00.558 Epoch: 80, Time: 0.0287, Loss: 8.1607, Loss_gcn: 0.0040, Loss_lpa:1.4011, Loss_lpa2:1.1648, TrainAcc: 1.0000, ValAcc: 0.6860, ES: 07/50 | BestVal=0.7360@E73
+2025-04-26 02:59:00.560 Epoch: 90, Time: 0.0325, Loss: 7.7590, Loss_gcn: 0.2702, Loss_lpa:1.3735, Loss_lpa2:1.0544, TrainAcc: 0.9833, ValAcc: 0.7040, ES: 17/50 | BestVal=0.7360@E73
+2025-04-26 02:59:00.561 Epoch: 100, Time: 0.0249, Loss: 7.1812, Loss_gcn: 0.3281, Loss_lpa:1.3227, Loss_lpa2:0.9535, TrainAcc: 0.9250, ValAcc: 0.6860, ES: 27/50 | BestVal=0.7360@E73
+2025-04-26 02:59:00.562 Epoch: 110, Time: 0.0245, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.1667, ValAcc: 0.1860, ES: 06/50 | BestVal=0.7540@E104
+2025-04-26 02:59:00.564 Epoch: 120, Time: 0.0246, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.1667, ValAcc: 0.1860, ES: 16/50 | BestVal=0.7540@E104
+2025-04-26 02:59:00.565 Epoch: 130, Time: 0.0215, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.1667, ValAcc: 0.1860, ES: 26/50 | BestVal=0.7540@E104
+2025-04-26 02:59:00.567 Epoch: 140, Time: 0.0220, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.1667, ValAcc: 0.1860, ES: 36/50 | BestVal=0.7540@E104
+2025-04-26 02:59:00.569 Epoch: 150, Time: 0.0214, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.1667, ValAcc: 0.1860, ES: 46/50 | BestVal=0.7540@E104
+2025-04-26 02:59:00.571 Early stopped, loading model from epoch-104
+2025-04-26 02:59:00.572 Finished running train at 04-26 10:58:56, running time = 4.22s.
+2025-04-26 02:59:00.574 [TA] ValAcc: 0.7540, TestAcc: 0.7060
+2025-04-26 02:59:00.575 
+2025-04-26 02:59:00.577 deberta-base
+2025-04-26 02:59:00.579 Loading top-k prediction features ...
+2025-04-26 02:59:00.580 
+2025-04-26 02:59:32.222 Number of parameters: 406572
+2025-04-26 02:59:32.225 Start running train at 04-26 10:58:56
+2025-04-26 02:59:32.226 Epoch: 0, Time: 0.0265, Loss: 11.9260, Loss_gcn: 2.0807, Loss_lpa:1.4711, Loss_lpa2:1.4438, TrainAcc: 0.2583, ValAcc: 0.1880, ES: 00/50 | BestVal=0.1880@E0
+2025-04-26 02:59:32.228 Epoch: 10, Time: 0.0342, Loss: 10.1771, Loss_gcn: 0.4597, Loss_lpa:1.4683, Loss_lpa2:1.4223, TrainAcc: 0.8250, ValAcc: 0.2380, ES: 00/50 | BestVal=0.2380@E10
+2025-04-26 02:59:32.231 Epoch: 20, Time: 0.0280, Loss: 9.8562, Loss_gcn: 0.2776, Loss_lpa:1.4651, Loss_lpa2:1.3989, TrainAcc: 0.9333, ValAcc: 0.6280, ES: 00/50 | BestVal=0.6280@E20
+2025-04-26 02:59:32.232 Epoch: 30, Time: 0.0224, Loss: 9.6861, Loss_gcn: 0.2554, Loss_lpa:1.4617, Loss_lpa2:1.3740, TrainAcc: 0.9333, ValAcc: 0.7060, ES: 01/50 | BestVal=0.7120@E29
+2025-04-26 02:59:32.234 Epoch: 40, Time: 0.0222, Loss: 9.5156, Loss_gcn: 0.2460, Loss_lpa:1.4576, Loss_lpa2:1.3469, TrainAcc: 0.9250, ValAcc: 0.6460, ES: 11/50 | BestVal=0.7120@E29
+2025-04-26 02:59:32.235 Epoch: 50, Time: 0.0222, Loss: 9.2887, Loss_gcn: 0.2005, Loss_lpa:1.4522, Loss_lpa2:1.3166, TrainAcc: 0.9417, ValAcc: 0.6080, ES: 21/50 | BestVal=0.7120@E29
+2025-04-26 02:59:32.238 Epoch: 60, Time: 0.0222, Loss: 9.0565, Loss_gcn: 0.1768, Loss_lpa:1.4455, Loss_lpa2:1.2818, TrainAcc: 0.9333, ValAcc: 0.6740, ES: 31/50 | BestVal=0.7120@E29
+2025-04-26 02:59:32.239 Epoch: 70, Time: 0.0222, Loss: 8.7589, Loss_gcn: 0.1264, Loss_lpa:1.4368, Loss_lpa2:1.2406, TrainAcc: 0.9500, ValAcc: 0.6500, ES: 41/50 | BestVal=0.7120@E29
+2025-04-26 02:59:32.241 Early stopped, loading model from epoch-29
+2025-04-26 02:59:32.242 Finished running train at 04-26 10:58:58, running time = 1.96s.
+2025-04-26 02:59:32.244 [P] ValAcc: 0.7120, TestAcc: 0.6550
+2025-04-26 02:59:32.246 
+2025-04-26 02:59:32.247 deberta-base
+2025-04-26 02:59:32.249 Loading pretrained LM features (explanations) ...
+2025-04-26 02:59:32.250 LM_emb_path: prt_lm_fewshot/citeseer2/microsoft/deberta-base-seed3.emb
+2025-04-26 02:59:32.252 
+2025-04-26 02:59:32.253 Number of parameters: 273708
+2025-04-26 02:59:32.255 Start running train at 04-26 10:58:58
+2025-04-26 02:59:32.256 Epoch: 0, Time: 0.0254, Loss: 12.1281, Loss_gcn: 2.2827, Loss_lpa:1.4711, Loss_lpa2:1.4438, TrainAcc: 0.1833, ValAcc: 0.7320, ES: 00/50 | BestVal=0.7320@E0
+2025-04-26 02:59:32.258 Epoch: 10, Time: 0.0293, Loss: 9.8589, Loss_gcn: 0.1420, Loss_lpa:1.4668, Loss_lpa2:1.4224, TrainAcc: 0.9667, ValAcc: 0.7260, ES: 05/50 | BestVal=0.7380@E5
+2025-04-26 02:59:32.259 Epoch: 20, Time: 0.0285, Loss: 9.6443, Loss_gcn: 0.0684, Loss_lpa:1.4619, Loss_lpa2:1.3990, TrainAcc: 0.9667, ValAcc: 0.7260, ES: 15/50 | BestVal=0.7380@E5
+2025-04-26 02:59:32.261 Epoch: 30, Time: 0.0295, Loss: 9.4542, Loss_gcn: 0.0307, Loss_lpa:1.4564, Loss_lpa2:1.3736, TrainAcc: 0.9917, ValAcc: 0.7320, ES: 25/50 | BestVal=0.7380@E5
+2025-04-26 02:59:32.262 Epoch: 40, Time: 0.0290, Loss: 9.2705, Loss_gcn: 0.0164, Loss_lpa:1.4500, Loss_lpa2:1.3455, TrainAcc: 1.0000, ValAcc: 0.7160, ES: 35/50 | BestVal=0.7380@E5
+2025-04-26 02:59:32.264 Epoch: 50, Time: 0.0290, Loss: 9.0789, Loss_gcn: 0.0177, Loss_lpa:1.4423, Loss_lpa2:1.3136, TrainAcc: 1.0000, ValAcc: 0.7140, ES: 45/50 | BestVal=0.7380@E5
+2025-04-26 02:59:32.266 Early stopped, loading model from epoch-5
+2025-04-26 02:59:32.267 Finished running train at 04-26 10:59:00, running time = 1.59s.
+2025-04-26 02:59:32.269 [E] ValAcc: 0.7380, TestAcc: 0.7090
+2025-04-26 02:59:32.270 
+2025-04-26 02:59:32.272 (TA_P_E) ValAcc: 0.7680, TestAcc: 0.7430
+2025-04-26 02:59:32.273 
+2025-04-26 02:59:32.275 [TA] ValACC: 0.6860 ± 0.0528, TestAcc: 0.6780 ± 0.0341
+2025-04-26 02:59:32.276 [P] ValACC: 0.6910 ± 0.0304, TestAcc: 0.6588 ± 0.0250
+2025-04-26 02:59:32.278 [E] ValACC: 0.7055 ± 0.0235, TestAcc: 0.7000 ± 0.0079
+2025-04-26 02:59:32.279 [ensemble] ValACC: 0.7290 ± 0.0319, TestAcc: 0.7307 ± 0.0143
+
+
+
+
+
+
+2025-04-26 02:59:32.281 deberta-base
+2025-04-26 02:59:32.282 Loading pretrained LM features (title and abstract) ...
+2025-04-26 02:59:32.284 LM_emb_path: prt_lm_fewshot/pubmed/microsoft/deberta-base-seed0.emb
+2025-04-26 02:59:32.285 
+2025-04-26 02:59:32.287 Number of parameters: 353108
+2025-04-26 02:59:32.288 Start running train at 04-26 10:59:08
+2025-04-26 02:59:32.290 Epoch: 0, Time: 0.4529, Loss: 4.2300, Loss_gcn: 1.8394, Loss_lpa:0.8858, Loss_lpa2:0.7524, TrainAcc: 0.2500, ValAcc: 0.6760, ES: 00/50 | BestVal=0.6760@E0
+2025-04-26 02:59:32.291 Epoch: 10, Time: 0.0362, Loss: 2.4592, Loss_gcn: 0.0987, Loss_lpa:0.8784, Loss_lpa2:0.7410, TrainAcc: 0.9667, ValAcc: 0.2260, ES: 10/50 | BestVal=0.6760@E0
+2025-04-26 02:59:32.293 Epoch: 20, Time: 0.0337, Loss: 2.3310, Loss_gcn: 0.0058, Loss_lpa:0.8697, Loss_lpa2:0.7277, TrainAcc: 1.0000, ValAcc: 0.4860, ES: 20/50 | BestVal=0.6760@E0
+2025-04-26 02:59:32.294 Epoch: 30, Time: 0.0368, Loss: 2.2883, Loss_gcn: 0.0022, Loss_lpa:0.8599, Loss_lpa2:0.7131, TrainAcc: 1.0000, ValAcc: 0.6260, ES: 30/50 | BestVal=0.6760@E0
+2025-04-26 02:59:32.296 Epoch: 40, Time: 0.0364, Loss: 2.2441, Loss_gcn: 0.0019, Loss_lpa:0.8488, Loss_lpa2:0.6967, TrainAcc: 1.0000, ValAcc: 0.6760, ES: 01/50 | BestVal=0.6780@E39
+2025-04-26 02:59:32.297 Epoch: 50, Time: 0.0393, Loss: 2.1950, Loss_gcn: 0.0032, Loss_lpa:0.8357, Loss_lpa2:0.6780, TrainAcc: 1.0000, ValAcc: 0.6820, ES: 00/50 | BestVal=0.6820@E50
+2025-04-26 02:59:32.299 Epoch: 60, Time: 0.0367, Loss: 2.1370, Loss_gcn: 0.0041, Loss_lpa:0.8197, Loss_lpa2:0.6566, TrainAcc: 1.0000, ValAcc: 0.6800, ES: 06/50 | BestVal=0.6840@E54
+2025-04-26 02:59:32.300 Epoch: 70, Time: 0.0388, Loss: 2.0639, Loss_gcn: 0.0014, Loss_lpa:0.7996, Loss_lpa2:0.6315, TrainAcc: 1.0000, ValAcc: 0.6640, ES: 08/50 | BestVal=0.6840@E62
+2025-04-26 02:59:32.302 Epoch: 80, Time: 0.0390, Loss: 1.9990, Loss_gcn: 0.0255, Loss_lpa:0.7721, Loss_lpa2:0.6008, TrainAcc: 0.9833, ValAcc: 0.6560, ES: 18/50 | BestVal=0.6840@E62
+2025-04-26 02:59:32.303 Epoch: 90, Time: 0.0376, Loss: 1.8573, Loss_gcn: 0.0094, Loss_lpa:0.7308, Loss_lpa2:0.5586, TrainAcc: 1.0000, ValAcc: 0.6360, ES: 28/50 | BestVal=0.6840@E62
+2025-04-26 02:59:32.305 Epoch: 100, Time: 0.0366, Loss: 1.6728, Loss_gcn: 0.0192, Loss_lpa:0.6707, Loss_lpa2:0.4914, TrainAcc: 0.9833, ValAcc: 0.6220, ES: 38/50 | BestVal=0.6840@E62
+2025-04-26 02:59:32.306 Epoch: 110, Time: 0.0363, Loss: 1.8270, Loss_gcn: 0.3700, Loss_lpa:0.6200, Loss_lpa2:0.4185, TrainAcc: 0.8667, ValAcc: 0.5940, ES: 48/50 | BestVal=0.6840@E62
+2025-04-26 02:59:32.308 Early stopped, loading model from epoch-62
+2025-04-26 02:59:32.309 Finished running train at 04-26 10:59:12, running time = 4.60s.
+2025-04-26 02:59:32.311 [TA] ValAcc: 0.6840, TestAcc: 0.6960
+2025-04-26 02:59:32.312 
+2025-04-26 02:59:32.314 deberta-base
+2025-04-26 02:59:32.315 Loading top-k prediction features ...
+2025-04-26 02:59:32.317 
+2025-04-26 02:59:32.319 Number of parameters: 354132
+2025-04-26 02:59:32.320 Start running train at 04-26 10:59:14
+2025-04-26 02:59:32.322 Epoch: 0, Time: 0.0441, Loss: 3.5782, Loss_gcn: 1.1877, Loss_lpa:0.8858, Loss_lpa2:0.7524, TrainAcc: 0.3167, ValAcc: 0.8560, ES: 00/50 | BestVal=0.8560@E0
+2025-04-26 02:59:32.323 Epoch: 10, Time: 0.0377, Loss: 2.4473, Loss_gcn: 0.0923, Loss_lpa:0.8774, Loss_lpa2:0.7388, TrainAcc: 0.9500, ValAcc: 0.6340, ES: 10/50 | BestVal=0.8560@E0
+2025-04-26 02:59:32.325 Epoch: 20, Time: 0.0403, Loss: 2.3456, Loss_gcn: 0.0305, Loss_lpa:0.8673, Loss_lpa2:0.7239, TrainAcc: 1.0000, ValAcc: 0.8900, ES: 00/50 | BestVal=0.8900@E20
+2025-04-26 02:59:32.326 Epoch: 30, Time: 0.0382, Loss: 2.2880, Loss_gcn: 0.0162, Loss_lpa:0.8558, Loss_lpa2:0.7080, TrainAcc: 1.0000, ValAcc: 0.9040, ES: 03/50 | BestVal=0.9080@E27
+2025-04-26 02:59:32.328 Epoch: 40, Time: 0.0388, Loss: 2.2266, Loss_gcn: 0.0026, Loss_lpa:0.8427, Loss_lpa2:0.6906, TrainAcc: 1.0000, ValAcc: 0.9020, ES: 13/50 | BestVal=0.9080@E27
+2025-04-26 02:59:32.329 Epoch: 50, Time: 0.0393, Loss: 2.1721, Loss_gcn: 0.0022, Loss_lpa:0.8271, Loss_lpa2:0.6714, TrainAcc: 1.0000, ValAcc: 0.9020, ES: 23/50 | BestVal=0.9080@E27
+2025-04-26 02:59:32.330 Epoch: 60, Time: 0.0376, Loss: 2.1087, Loss_gcn: 0.0023, Loss_lpa:0.8079, Loss_lpa2:0.6492, TrainAcc: 1.0000, ValAcc: 0.9040, ES: 33/50 | BestVal=0.9080@E27
+2025-04-26 02:59:32.332 Epoch: 70, Time: 0.0403, Loss: 2.0330, Loss_gcn: 0.0046, Loss_lpa:0.7828, Loss_lpa2:0.6228, TrainAcc: 1.0000, ValAcc: 0.9200, ES: 00/50 | BestVal=0.9200@E70
+2025-04-26 02:59:32.333 Epoch: 80, Time: 0.0380, Loss: 1.9274, Loss_gcn: 0.0038, Loss_lpa:0.7467, Loss_lpa2:0.5884, TrainAcc: 1.0000, ValAcc: 0.9300, ES: 02/50 | BestVal=0.9320@E78
+2025-04-26 02:59:32.335 Epoch: 90, Time: 0.0377, Loss: 1.7551, Loss_gcn: 0.0083, Loss_lpa:0.6839, Loss_lpa2:0.5314, TrainAcc: 1.0000, ValAcc: 0.9300, ES: 01/50 | BestVal=0.9320@E89
+2025-04-26 02:59:32.336 Epoch: 100, Time: 0.0392, Loss: 1.5276, Loss_gcn: 0.0239, Loss_lpa:0.6075, Loss_lpa2:0.4481, TrainAcc: 0.9833, ValAcc: 0.8380, ES: 03/50 | BestVal=0.9320@E97
+2025-04-26 02:59:32.338 Epoch: 110, Time: 0.0367, Loss: 1.3535, Loss_gcn: 0.0256, Loss_lpa:0.5597, Loss_lpa2:0.3841, TrainAcc: 1.0000, ValAcc: 0.9240, ES: 13/50 | BestVal=0.9320@E97
+2025-04-26 02:59:32.339 Epoch: 120, Time: 0.0383, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.3333, ValAcc: 0.1580, ES: 23/50 | BestVal=0.9320@E97
+2025-04-26 02:59:32.340 Epoch: 130, Time: 0.0374, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.3333, ValAcc: 0.1580, ES: 33/50 | BestVal=0.9320@E97
+2025-04-26 02:59:32.342 Epoch: 140, Time: 0.0338, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.3333, ValAcc: 0.1580, ES: 43/50 | BestVal=0.9320@E97
+2025-04-26 02:59:32.344 Early stopped, loading model from epoch-97
+2025-04-26 02:59:32.345 Finished running train at 04-26 10:59:20, running time = 5.76s.
+2025-04-26 02:59:32.346 [P] ValAcc: 0.9320, TestAcc: 0.9360
+2025-04-26 02:59:32.348 
+2025-04-26 02:59:32.349 deberta-base
+2025-04-26 02:59:32.351 Loading pretrained LM features (explanations) ...
+2025-04-26 02:59:32.352 LM_emb_path: prt_lm_fewshot/pubmed2/microsoft/deberta-base-seed0.emb
+2025-04-26 02:59:32.353 
+2025-04-26 02:59:32.355 Number of parameters: 353108
+2025-04-26 02:59:32.356 Start running train at 04-26 10:59:22
+2025-04-26 02:59:57.120 Epoch: 0, Time: 0.0605, Loss: 3.8210, Loss_gcn: 1.4305, Loss_lpa:0.8858, Loss_lpa2:0.7524, TrainAcc: 0.3333, ValAcc: 0.8720, ES: 00/50 | BestVal=0.8720@E0
+2025-04-26 02:59:57.123 Epoch: 10, Time: 0.0354, Loss: 2.4124, Loss_gcn: 0.0555, Loss_lpa:0.8777, Loss_lpa2:0.7396, TrainAcc: 0.9833, ValAcc: 0.3560, ES: 10/50 | BestVal=0.8720@E0
+2025-04-26 02:59:57.125 Epoch: 20, Time: 0.0370, Loss: 2.3214, Loss_gcn: 0.0033, Loss_lpa:0.8678, Loss_lpa2:0.7251, TrainAcc: 1.0000, ValAcc: 0.7920, ES: 20/50 | BestVal=0.8720@E0
+2025-04-26 02:59:57.127 Epoch: 30, Time: 0.0372, Loss: 2.2862, Loss_gcn: 0.0107, Loss_lpa:0.8567, Loss_lpa2:0.7094, TrainAcc: 1.0000, ValAcc: 0.8660, ES: 30/50 | BestVal=0.8720@E0
+2025-04-26 02:59:57.129 Epoch: 40, Time: 0.0369, Loss: 2.2288, Loss_gcn: 0.0016, Loss_lpa:0.8438, Loss_lpa2:0.6917, TrainAcc: 1.0000, ValAcc: 0.8800, ES: 01/50 | BestVal=0.8840@E39
+2025-04-26 02:59:57.131 Epoch: 50, Time: 0.0364, Loss: 2.1732, Loss_gcn: 0.0015, Loss_lpa:0.8285, Loss_lpa2:0.6716, TrainAcc: 1.0000, ValAcc: 0.8860, ES: 01/50 | BestVal=0.8880@E49
+2025-04-26 02:59:57.133 Epoch: 60, Time: 0.0391, Loss: 2.1078, Loss_gcn: 0.0014, Loss_lpa:0.8097, Loss_lpa2:0.6483, TrainAcc: 1.0000, ValAcc: 0.8900, ES: 00/50 | BestVal=0.8900@E60
+2025-04-26 02:59:57.134 Epoch: 70, Time: 0.0363, Loss: 2.0273, Loss_gcn: 0.0005, Loss_lpa:0.7857, Loss_lpa2:0.6206, TrainAcc: 1.0000, ValAcc: 0.8940, ES: 03/50 | BestVal=0.9000@E67
+2025-04-26 02:59:57.136 Epoch: 80, Time: 0.0362, Loss: 1.9238, Loss_gcn: 0.0019, Loss_lpa:0.7518, Loss_lpa2:0.5850, TrainAcc: 1.0000, ValAcc: 0.8920, ES: 13/50 | BestVal=0.9000@E67
+2025-04-26 02:59:57.137 Epoch: 90, Time: 0.0366, Loss: 1.7559, Loss_gcn: 0.0011, Loss_lpa:0.6959, Loss_lpa2:0.5294, TrainAcc: 1.0000, ValAcc: 0.9000, ES: 01/50 | BestVal=0.9040@E89
+2025-04-26 02:59:57.139 Epoch: 100, Time: 0.0366, Loss: 6.7825, Loss_gcn: 5.2665, Loss_lpa:0.6261, Loss_lpa2:0.4449, TrainAcc: 0.9667, ValAcc: 0.6500, ES: 06/50 | BestVal=0.9060@E94
+2025-04-26 02:59:57.141 Epoch: 110, Time: 0.0367, Loss: 1.4813, Loss_gcn: 0.1240, Loss_lpa:0.5743, Loss_lpa2:0.3915, TrainAcc: 0.9667, ValAcc: 0.8340, ES: 16/50 | BestVal=0.9060@E94
+2025-04-26 02:59:57.143 Epoch: 120, Time: 0.0362, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.3333, ValAcc: 0.1580, ES: 26/50 | BestVal=0.9060@E94
+2025-04-26 02:59:57.144 Epoch: 130, Time: 0.0361, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.3333, ValAcc: 0.1580, ES: 36/50 | BestVal=0.9060@E94
+2025-04-26 02:59:57.146 Epoch: 140, Time: 0.0363, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.3333, ValAcc: 0.1580, ES: 46/50 | BestVal=0.9060@E94
+2025-04-26 02:59:57.147 Early stopped, loading model from epoch-94
+2025-04-26 02:59:57.149 Finished running train at 04-26 10:59:27, running time = 5.41s.
+2025-04-26 02:59:57.150 [E] ValAcc: 0.9060, TestAcc: 0.8780
+2025-04-26 02:59:57.152 
+2025-04-26 02:59:57.153 (TA_P_E) ValAcc: 0.9040, TestAcc: 0.9150
+2025-04-26 02:59:57.155 
+2025-04-26 02:59:57.157 deberta-base
+2025-04-26 02:59:57.158 Loading pretrained LM features (title and abstract) ...
+2025-04-26 02:59:57.160 LM_emb_path: prt_lm_fewshot/pubmed/microsoft/deberta-base-seed1.emb
+2025-04-26 02:59:57.162 
+2025-04-26 02:59:57.163 Number of parameters: 353108
+2025-04-26 02:59:57.165 Start running train at 04-26 10:59:31
+2025-04-26 02:59:57.166 Epoch: 0, Time: 0.0411, Loss: 3.6913, Loss_gcn: 1.2388, Loss_lpa:0.9044, Loss_lpa2:0.7740, TrainAcc: 0.4333, ValAcc: 0.5000, ES: 00/50 | BestVal=0.5000@E0
+2025-04-26 02:59:57.168 Epoch: 10, Time: 0.0362, Loss: 2.6122, Loss_gcn: 0.1876, Loss_lpa:0.8972, Loss_lpa2:0.7637, TrainAcc: 0.9500, ValAcc: 0.3840, ES: 10/50 | BestVal=0.5000@E0
+2025-04-26 02:59:57.169 Epoch: 20, Time: 0.0396, Loss: 2.4217, Loss_gcn: 0.0280, Loss_lpa:0.8888, Loss_lpa2:0.7524, TrainAcc: 1.0000, ValAcc: 0.5000, ES: 00/50 | BestVal=0.5000@E20
+2025-04-26 02:59:57.171 Epoch: 30, Time: 0.0390, Loss: 2.3691, Loss_gcn: 0.0096, Loss_lpa:0.8795, Loss_lpa2:0.7400, TrainAcc: 1.0000, ValAcc: 0.6840, ES: 00/50 | BestVal=0.6840@E30
+2025-04-26 02:59:57.172 Epoch: 40, Time: 0.0390, Loss: 2.3239, Loss_gcn: 0.0037, Loss_lpa:0.8688, Loss_lpa2:0.7257, TrainAcc: 1.0000, ValAcc: 0.6960, ES: 00/50 | BestVal=0.6960@E40
+2025-04-26 02:59:57.174 Epoch: 50, Time: 0.0374, Loss: 2.2799, Loss_gcn: 0.0045, Loss_lpa:0.8565, Loss_lpa2:0.7095, TrainAcc: 1.0000, ValAcc: 0.6940, ES: 08/50 | BestVal=0.7100@E42
+2025-04-26 02:59:57.175 Epoch: 60, Time: 0.0366, Loss: 2.2413, Loss_gcn: 0.0178, Loss_lpa:0.8416, Loss_lpa2:0.6909, TrainAcc: 0.9833, ValAcc: 0.6640, ES: 18/50 | BestVal=0.7100@E42
+2025-04-26 02:59:57.177 Epoch: 70, Time: 0.0362, Loss: 2.1663, Loss_gcn: 0.0031, Loss_lpa:0.8234, Loss_lpa2:0.6699, TrainAcc: 1.0000, ValAcc: 0.6180, ES: 28/50 | BestVal=0.7100@E42
+2025-04-26 02:59:57.178 Epoch: 80, Time: 0.0331, Loss: 2.0961, Loss_gcn: 0.0044, Loss_lpa:0.8004, Loss_lpa2:0.6456, TrainAcc: 1.0000, ValAcc: 0.6740, ES: 38/50 | BestVal=0.7100@E42
+2025-04-26 02:59:57.180 Epoch: 90, Time: 0.0328, Loss: 2.0214, Loss_gcn: 0.0237, Loss_lpa:0.7680, Loss_lpa2:0.6149, TrainAcc: 0.9833, ValAcc: 0.6540, ES: 48/50 | BestVal=0.7100@E42
+2025-04-26 02:59:57.182 Early stopped, loading model from epoch-42
+2025-04-26 02:59:57.183 Finished running train at 04-26 10:59:34, running time = 3.39s.
+2025-04-26 02:59:57.185 [TA] ValAcc: 0.7100, TestAcc: 0.6840
+2025-04-26 02:59:57.186 
+2025-04-26 02:59:57.188 deberta-base
+2025-04-26 02:59:57.190 Loading top-k prediction features ...
+2025-04-26 02:59:57.192 
+2025-04-26 02:59:57.193 Number of parameters: 354132
+2025-04-26 02:59:57.195 Start running train at 04-26 10:59:36
+2025-04-26 02:59:57.196 Epoch: 0, Time: 0.0407, Loss: 3.8652, Loss_gcn: 1.4127, Loss_lpa:0.9044, Loss_lpa2:0.7740, TrainAcc: 0.2333, ValAcc: 0.8740, ES: 00/50 | BestVal=0.8740@E0
+2025-04-26 02:59:57.197 Epoch: 10, Time: 0.0376, Loss: 2.5729, Loss_gcn: 0.1527, Loss_lpa:0.8974, Loss_lpa2:0.7614, TrainAcc: 0.9333, ValAcc: 0.3860, ES: 10/50 | BestVal=0.8740@E0
+2025-04-26 02:59:57.199 Epoch: 20, Time: 0.0378, Loss: 2.5317, Loss_gcn: 0.1462, Loss_lpa:0.8894, Loss_lpa2:0.7480, TrainAcc: 0.9500, ValAcc: 0.5300, ES: 20/50 | BestVal=0.8740@E0
+2025-04-26 02:59:57.201 Epoch: 30, Time: 0.0405, Loss: 2.4051, Loss_gcn: 0.0566, Loss_lpa:0.8800, Loss_lpa2:0.7342, TrainAcc: 0.9833, ValAcc: 0.8160, ES: 30/50 | BestVal=0.8740@E0
+2025-04-26 02:59:57.203 Epoch: 40, Time: 0.0414, Loss: 2.3332, Loss_gcn: 0.0259, Loss_lpa:0.8690, Loss_lpa2:0.7192, TrainAcc: 1.0000, ValAcc: 0.8780, ES: 00/50 | BestVal=0.8780@E40
+2025-04-26 02:59:57.204 Epoch: 50, Time: 0.0378, Loss: 2.2661, Loss_gcn: 0.0048, Loss_lpa:0.8560, Loss_lpa2:0.7026, TrainAcc: 1.0000, ValAcc: 0.8640, ES: 09/50 | BestVal=0.8780@E41
+2025-04-26 02:59:57.206 Epoch: 60, Time: 0.0376, Loss: 2.2184, Loss_gcn: 0.0096, Loss_lpa:0.8405, Loss_lpa2:0.6842, TrainAcc: 1.0000, ValAcc: 0.8660, ES: 19/50 | BestVal=0.8780@E41
+2025-04-26 02:59:57.207 Epoch: 70, Time: 0.0401, Loss: 2.1491, Loss_gcn: 0.0025, Loss_lpa:0.8210, Loss_lpa2:0.6628, TrainAcc: 1.0000, ValAcc: 0.8720, ES: 29/50 | BestVal=0.8780@E41
+2025-04-26 02:59:57.208 Epoch: 80, Time: 0.0409, Loss: 2.0695, Loss_gcn: 0.0023, Loss_lpa:0.7947, Loss_lpa2:0.6362, TrainAcc: 1.0000, ValAcc: 0.8460, ES: 39/50 | BestVal=0.8780@E41
+2025-04-26 02:59:57.210 Epoch: 90, Time: 0.0382, Loss: 1.9506, Loss_gcn: 0.0028, Loss_lpa:0.7541, Loss_lpa2:0.5969, TrainAcc: 1.0000, ValAcc: 0.7740, ES: 49/50 | BestVal=0.8780@E41
+2025-04-26 02:59:57.213 Early stopped, loading model from epoch-41
+2025-04-26 02:59:57.216 Finished running train at 04-26 10:59:40, running time = 3.56s.
+2025-04-26 02:59:57.219 [P] ValAcc: 0.8780, TestAcc: 0.8730
+2025-04-26 02:59:57.221 
+2025-04-26 02:59:57.223 deberta-base
+2025-04-26 02:59:57.225 Loading pretrained LM features (explanations) ...
+2025-04-26 02:59:57.227 LM_emb_path: prt_lm_fewshot/pubmed2/microsoft/deberta-base-seed1.emb
+2025-04-26 02:59:57.229 
+2025-04-26 02:59:57.231 Number of parameters: 353108
+2025-04-26 02:59:57.233 Start running train at 04-26 10:59:42
+2025-04-26 02:59:57.234 Epoch: 0, Time: 0.0413, Loss: 3.9210, Loss_gcn: 1.4685, Loss_lpa:0.9044, Loss_lpa2:0.7740, TrainAcc: 0.3167, ValAcc: 0.5580, ES: 00/50 | BestVal=0.5580@E0
+2025-04-26 02:59:57.236 Epoch: 10, Time: 0.0363, Loss: 2.5488, Loss_gcn: 0.1291, Loss_lpa:0.8964, Loss_lpa2:0.7616, TrainAcc: 0.9667, ValAcc: 0.5000, ES: 10/50 | BestVal=0.5580@E0
+2025-04-26 02:59:57.237 Epoch: 20, Time: 0.0388, Loss: 2.3900, Loss_gcn: 0.0071, Loss_lpa:0.8866, Loss_lpa2:0.7481, TrainAcc: 1.0000, ValAcc: 0.6220, ES: 00/50 | BestVal=0.6220@E20
+2025-04-26 02:59:57.239 Epoch: 30, Time: 0.0364, Loss: 2.3484, Loss_gcn: 0.0043, Loss_lpa:0.8757, Loss_lpa2:0.7342, TrainAcc: 1.0000, ValAcc: 0.8300, ES: 00/50 | BestVal=0.8300@E30
+2025-04-26 02:59:57.241 Epoch: 40, Time: 0.0360, Loss: 2.3027, Loss_gcn: 0.0016, Loss_lpa:0.8630, Loss_lpa2:0.7190, TrainAcc: 1.0000, ValAcc: 0.8800, ES: 00/50 | BestVal=0.8800@E40
+2025-04-26 02:59:57.243 Epoch: 50, Time: 0.0357, Loss: 2.2835, Loss_gcn: 0.0313, Loss_lpa:0.8480, Loss_lpa2:0.7021, TrainAcc: 0.9833, ValAcc: 0.8840, ES: 00/50 | BestVal=0.8840@E50
+2025-04-26 02:59:57.244 Epoch: 60, Time: 0.0329, Loss: 2.1975, Loss_gcn: 0.0029, Loss_lpa:0.8295, Loss_lpa2:0.6825, TrainAcc: 1.0000, ValAcc: 0.8760, ES: 08/50 | BestVal=0.8860@E52
+2025-04-26 02:59:57.246 Epoch: 70, Time: 0.0330, Loss: 2.1295, Loss_gcn: 0.0048, Loss_lpa:0.8057, Loss_lpa2:0.6595, TrainAcc: 1.0000, ValAcc: 0.8520, ES: 18/50 | BestVal=0.8860@E52
+2025-04-26 02:59:57.247 Epoch: 80, Time: 0.0331, Loss: 2.0409, Loss_gcn: 0.0076, Loss_lpa:0.7727, Loss_lpa2:0.6303, TrainAcc: 1.0000, ValAcc: 0.8340, ES: 28/50 | BestVal=0.8860@E52
+2025-04-26 02:59:57.250 Epoch: 90, Time: 0.0333, Loss: 1.9040, Loss_gcn: 0.0026, Loss_lpa:0.7230, Loss_lpa2:0.5892, TrainAcc: 1.0000, ValAcc: 0.8720, ES: 38/50 | BestVal=0.8860@E52
+2025-04-26 03:00:21.713 Epoch: 100, Time: 0.0336, Loss: 1.6644, Loss_gcn: 0.0067, Loss_lpa:0.6411, Loss_lpa2:0.5083, TrainAcc: 1.0000, ValAcc: 0.8600, ES: 48/50 | BestVal=0.8860@E52
+2025-04-26 03:00:21.714 Early stopped, loading model from epoch-52
+2025-04-26 03:00:21.717 Finished running train at 04-26 10:59:45, running time = 3.59s.
+2025-04-26 03:00:21.719 [E] ValAcc: 0.8860, TestAcc: 0.8650
+2025-04-26 03:00:21.722 
+2025-04-26 03:00:21.725 (TA_P_E) ValAcc: 0.8700, TestAcc: 0.8560
+2025-04-26 03:00:21.727 
+2025-04-26 03:00:21.730 deberta-base
+2025-04-26 03:00:21.732 Loading pretrained LM features (title and abstract) ...
+2025-04-26 03:00:21.734 LM_emb_path: prt_lm_fewshot/pubmed/microsoft/deberta-base-seed2.emb
+2025-04-26 03:00:21.735 
+2025-04-26 03:00:21.737 Number of parameters: 353108
+2025-04-26 03:00:21.738 Start running train at 04-26 10:59:49
+2025-04-26 03:00:21.740 Epoch: 0, Time: 0.0393, Loss: 3.8287, Loss_gcn: 1.4390, Loss_lpa:0.8862, Loss_lpa2:0.7517, TrainAcc: 0.2833, ValAcc: 0.4340, ES: 00/50 | BestVal=0.4340@E0
+2025-04-26 03:00:21.742 Epoch: 10, Time: 0.0363, Loss: 2.9164, Loss_gcn: 0.5501, Loss_lpa:0.8825, Loss_lpa2:0.7419, TrainAcc: 0.7833, ValAcc: 0.4520, ES: 00/50 | BestVal=0.4520@E10
+2025-04-26 03:00:21.743 Epoch: 20, Time: 0.0332, Loss: 2.6817, Loss_gcn: 0.3422, Loss_lpa:0.8774, Loss_lpa2:0.7310, TrainAcc: 0.8667, ValAcc: 0.5220, ES: 03/50 | BestVal=0.5340@E17
+2025-04-26 03:00:21.745 Epoch: 30, Time: 0.0354, Loss: 2.4627, Loss_gcn: 0.1536, Loss_lpa:0.8710, Loss_lpa2:0.7190, TrainAcc: 0.9667, ValAcc: 0.5820, ES: 03/50 | BestVal=0.6040@E27
+2025-04-26 03:00:21.746 Epoch: 40, Time: 0.0353, Loss: 2.3946, Loss_gcn: 0.1187, Loss_lpa:0.8635, Loss_lpa2:0.7062, TrainAcc: 0.9667, ValAcc: 0.5740, ES: 13/50 | BestVal=0.6040@E27
+2025-04-26 03:00:21.748 Epoch: 50, Time: 0.0361, Loss: 2.2809, Loss_gcn: 0.0403, Loss_lpa:0.8555, Loss_lpa2:0.6926, TrainAcc: 1.0000, ValAcc: 0.4160, ES: 23/50 | BestVal=0.6040@E27
+2025-04-26 03:00:21.749 Epoch: 60, Time: 0.0362, Loss: 2.2427, Loss_gcn: 0.0422, Loss_lpa:0.8462, Loss_lpa2:0.6771, TrainAcc: 1.0000, ValAcc: 0.5940, ES: 33/50 | BestVal=0.6040@E27
+2025-04-26 03:00:21.750 Epoch: 70, Time: 0.0363, Loss: 2.1983, Loss_gcn: 0.0431, Loss_lpa:0.8358, Loss_lpa2:0.6597, TrainAcc: 0.9833, ValAcc: 0.5620, ES: 43/50 | BestVal=0.6040@E27
+2025-04-26 03:00:21.752 Early stopped, loading model from epoch-27
+2025-04-26 03:00:21.753 Finished running train at 04-26 10:59:52, running time = 2.77s.
+2025-04-26 03:00:21.755 [TA] ValAcc: 0.6040, TestAcc: 0.6110
+2025-04-26 03:00:21.756 
+2025-04-26 03:00:21.757 deberta-base
+2025-04-26 03:00:21.759 Loading top-k prediction features ...
+2025-04-26 03:00:21.760 
+2025-04-26 03:00:21.762 Number of parameters: 354132
+2025-04-26 03:00:21.763 Start running train at 04-26 10:59:54
+2025-04-26 03:00:21.764 Epoch: 0, Time: 0.0418, Loss: 3.7276, Loss_gcn: 1.3379, Loss_lpa:0.8862, Loss_lpa2:0.7517, TrainAcc: 0.3667, ValAcc: 0.5100, ES: 00/50 | BestVal=0.5100@E0
+2025-04-26 03:00:21.766 Epoch: 10, Time: 0.0407, Loss: 2.4265, Loss_gcn: 0.0692, Loss_lpa:0.8783, Loss_lpa2:0.7395, TrainAcc: 0.9500, ValAcc: 0.5380, ES: 00/50 | BestVal=0.5380@E10
+2025-04-26 03:00:21.767 Epoch: 20, Time: 0.0385, Loss: 2.3372, Loss_gcn: 0.0168, Loss_lpa:0.8692, Loss_lpa2:0.7256, TrainAcc: 1.0000, ValAcc: 0.7220, ES: 00/50 | BestVal=0.7220@E20
+2025-04-26 03:00:21.769 Epoch: 30, Time: 0.0383, Loss: 2.2930, Loss_gcn: 0.0125, Loss_lpa:0.8592, Loss_lpa2:0.7107, TrainAcc: 1.0000, ValAcc: 0.8880, ES: 00/50 | BestVal=0.8880@E30
+2025-04-26 03:00:21.770 Epoch: 40, Time: 0.0370, Loss: 2.2480, Loss_gcn: 0.0112, Loss_lpa:0.8476, Loss_lpa2:0.6946, TrainAcc: 1.0000, ValAcc: 0.9220, ES: 00/50 | BestVal=0.9220@E40
+2025-04-26 03:00:21.771 Epoch: 50, Time: 0.0347, Loss: 2.1962, Loss_gcn: 0.0086, Loss_lpa:0.8339, Loss_lpa2:0.6769, TrainAcc: 1.0000, ValAcc: 0.9080, ES: 02/50 | BestVal=0.9260@E48
+2025-04-26 03:00:21.773 Epoch: 60, Time: 0.0342, Loss: 2.1336, Loss_gcn: 0.0026, Loss_lpa:0.8175, Loss_lpa2:0.6567, TrainAcc: 1.0000, ValAcc: 0.8860, ES: 04/50 | BestVal=0.9280@E56
+2025-04-26 03:00:21.774 Epoch: 70, Time: 0.0341, Loss: 2.0646, Loss_gcn: 0.0020, Loss_lpa:0.7968, Loss_lpa2:0.6329, TrainAcc: 1.0000, ValAcc: 0.9220, ES: 01/50 | BestVal=0.9280@E69
+2025-04-26 03:00:21.776 Epoch: 80, Time: 0.0343, Loss: 1.9754, Loss_gcn: 0.0007, Loss_lpa:0.7690, Loss_lpa2:0.6028, TrainAcc: 1.0000, ValAcc: 0.9200, ES: 11/50 | BestVal=0.9280@E69
+2025-04-26 03:00:21.777 Epoch: 90, Time: 0.0342, Loss: 1.8448, Loss_gcn: 0.0012, Loss_lpa:0.7268, Loss_lpa2:0.5584, TrainAcc: 1.0000, ValAcc: 0.9260, ES: 21/50 | BestVal=0.9280@E69
+2025-04-26 03:00:21.778 Epoch: 100, Time: 0.0357, Loss: 1.8009, Loss_gcn: 0.1749, Loss_lpa:0.6673, Loss_lpa2:0.4793, TrainAcc: 0.9167, ValAcc: 0.7600, ES: 09/50 | BestVal=0.9280@E91
+2025-04-26 03:00:21.780 Epoch: 110, Time: 0.0376, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.3333, ValAcc: 0.1980, ES: 19/50 | BestVal=0.9280@E91
+2025-04-26 03:00:21.781 Epoch: 120, Time: 0.0375, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.3333, ValAcc: 0.1980, ES: 29/50 | BestVal=0.9280@E91
+2025-04-26 03:00:21.782 Epoch: 130, Time: 0.0375, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.3333, ValAcc: 0.1980, ES: 39/50 | BestVal=0.9280@E91
+2025-04-26 03:00:21.784 Epoch: 140, Time: 0.0375, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.3333, ValAcc: 0.1980, ES: 49/50 | BestVal=0.9280@E91
+2025-04-26 03:00:21.785 Early stopped, loading model from epoch-91
+2025-04-26 03:00:21.787 Finished running train at 04-26 10:59:59, running time = 5.20s.
+2025-04-26 03:00:21.788 [P] ValAcc: 0.9280, TestAcc: 0.9160
+2025-04-26 03:00:21.790 
+2025-04-26 03:00:21.791 deberta-base
+2025-04-26 03:00:21.792 Loading pretrained LM features (explanations) ...
+2025-04-26 03:00:21.794 LM_emb_path: prt_lm_fewshot/pubmed2/microsoft/deberta-base-seed2.emb
+2025-04-26 03:00:21.795 
+2025-04-26 03:00:21.796 Number of parameters: 353108
+2025-04-26 03:00:21.798 Start running train at 04-26 11:00:01
+2025-04-26 03:00:21.799 Epoch: 0, Time: 0.0974, Loss: 3.9702, Loss_gcn: 1.5805, Loss_lpa:0.8862, Loss_lpa2:0.7517, TrainAcc: 0.1500, ValAcc: 0.8400, ES: 00/50 | BestVal=0.8400@E0
+2025-04-26 03:00:21.801 Epoch: 10, Time: 0.0362, Loss: 2.4101, Loss_gcn: 0.0511, Loss_lpa:0.8792, Loss_lpa2:0.7399, TrainAcc: 0.9833, ValAcc: 0.5520, ES: 10/50 | BestVal=0.8400@E0
+2025-04-26 03:00:21.802 Epoch: 20, Time: 0.0369, Loss: 2.3430, Loss_gcn: 0.0212, Loss_lpa:0.8702, Loss_lpa2:0.7258, TrainAcc: 1.0000, ValAcc: 0.7280, ES: 20/50 | BestVal=0.8400@E0
+2025-04-26 03:00:21.803 Epoch: 30, Time: 0.0341, Loss: 2.2846, Loss_gcn: 0.0028, Loss_lpa:0.8599, Loss_lpa2:0.7109, TrainAcc: 1.0000, ValAcc: 0.7680, ES: 30/50 | BestVal=0.8400@E0
+2025-04-26 03:00:21.805 Epoch: 40, Time: 0.0331, Loss: 2.2442, Loss_gcn: 0.0060, Loss_lpa:0.8482, Loss_lpa2:0.6950, TrainAcc: 1.0000, ValAcc: 0.8220, ES: 40/50 | BestVal=0.8400@E0
+2025-04-26 03:00:21.806 Early stopped, loading model from epoch-0
+2025-04-26 03:00:21.807 Finished running train at 04-26 11:00:03, running time = 1.83s.
+2025-04-26 03:00:21.809 [E] ValAcc: 0.8400, TestAcc: 0.8240
+2025-04-26 03:00:21.810 
+2025-04-26 03:00:21.811 (TA_P_E) ValAcc: 0.9100, TestAcc: 0.9010
+2025-04-26 03:00:21.813 
+2025-04-26 03:00:21.814 deberta-base
+2025-04-26 03:00:21.815 Loading pretrained LM features (title and abstract) ...
+2025-04-26 03:00:21.817 LM_emb_path: prt_lm_fewshot/pubmed/microsoft/deberta-base-seed3.emb
+2025-04-26 03:00:21.818 
+2025-04-26 03:00:21.819 Number of parameters: 353108
+2025-04-26 03:00:21.820 Start running train at 04-26 11:00:06
+2025-04-26 03:00:21.822 Epoch: 0, Time: 0.0398, Loss: 3.9609, Loss_gcn: 1.4887, Loss_lpa:0.8778, Loss_lpa2:0.7972, TrainAcc: 0.2833, ValAcc: 0.3880, ES: 00/50 | BestVal=0.3880@E0
+2025-04-26 03:00:21.823 Epoch: 10, Time: 0.0346, Loss: 2.7110, Loss_gcn: 0.2685, Loss_lpa:0.8715, Loss_lpa2:0.7855, TrainAcc: 0.8667, ValAcc: 0.3640, ES: 09/50 | BestVal=0.4560@E1
+2025-04-26 03:00:21.824 Epoch: 20, Time: 0.0373, Loss: 2.4829, Loss_gcn: 0.0767, Loss_lpa:0.8632, Loss_lpa2:0.7715, TrainAcc: 0.9833, ValAcc: 0.4680, ES: 00/50 | BestVal=0.4680@E20
+2025-04-26 03:00:21.826 Epoch: 30, Time: 0.0360, Loss: 2.4158, Loss_gcn: 0.0500, Loss_lpa:0.8536, Loss_lpa2:0.7561, TrainAcc: 0.9833, ValAcc: 0.5940, ES: 00/50 | BestVal=0.5940@E30
+2025-04-26 03:00:21.827 Epoch: 40, Time: 0.0330, Loss: 2.3376, Loss_gcn: 0.0163, Loss_lpa:0.8429, Loss_lpa2:0.7392, TrainAcc: 1.0000, ValAcc: 0.5160, ES: 08/50 | BestVal=0.6100@E32
+2025-04-26 03:00:21.828 Epoch: 50, Time: 0.0329, Loss: 2.2917, Loss_gcn: 0.0194, Loss_lpa:0.8303, Loss_lpa2:0.7210, TrainAcc: 0.9833, ValAcc: 0.5560, ES: 18/50 | BestVal=0.6100@E32
+2025-04-26 03:00:21.830 Epoch: 60, Time: 0.0335, Loss: 2.2289, Loss_gcn: 0.0123, Loss_lpa:0.8153, Loss_lpa2:0.7006, TrainAcc: 1.0000, ValAcc: 0.5200, ES: 08/50 | BestVal=0.6400@E52
+2025-04-26 03:00:21.831 Epoch: 70, Time: 0.0331, Loss: 2.1603, Loss_gcn: 0.0100, Loss_lpa:0.7966, Loss_lpa2:0.6769, TrainAcc: 1.0000, ValAcc: 0.5300, ES: 18/50 | BestVal=0.6400@E52
+2025-04-26 03:00:21.833 Epoch: 80, Time: 0.0334, Loss: 2.0735, Loss_gcn: 0.0046, Loss_lpa:0.7725, Loss_lpa2:0.6482, TrainAcc: 1.0000, ValAcc: 0.5180, ES: 28/50 | BestVal=0.6400@E52
+2025-04-26 03:00:21.834 Epoch: 90, Time: 0.0335, Loss: 1.9999, Loss_gcn: 0.0501, Loss_lpa:0.7356, Loss_lpa2:0.6071, TrainAcc: 0.9833, ValAcc: 0.5840, ES: 38/50 | BestVal=0.6400@E52
+2025-04-26 03:00:21.835 Epoch: 100, Time: 0.0355, Loss: 1.8481, Loss_gcn: 0.0849, Loss_lpa:0.6866, Loss_lpa2:0.5383, TrainAcc: 0.9667, ValAcc: 0.5440, ES: 48/50 | BestVal=0.6400@E52
+2025-04-26 03:00:21.837 Early stopped, loading model from epoch-52
+2025-04-26 03:00:21.838 Finished running train at 04-26 11:00:10, running time = 3.52s.
+2025-04-26 03:00:21.839 [TA] ValAcc: 0.6400, TestAcc: 0.6230
+2025-04-26 03:00:21.841 
+2025-04-26 03:00:21.842 deberta-base
+2025-04-26 03:00:21.843 Loading top-k prediction features ...
+2025-04-26 03:00:21.845 
+2025-04-26 03:00:21.846 Number of parameters: 354132
+2025-04-26 03:00:21.847 Start running train at 04-26 11:00:12
+2025-04-26 03:00:21.849 Epoch: 0, Time: 0.0391, Loss: 3.9943, Loss_gcn: 1.5220, Loss_lpa:0.8778, Loss_lpa2:0.7972, TrainAcc: 0.1333, ValAcc: 0.5860, ES: 00/50 | BestVal=0.5860@E0
+2025-04-26 03:00:25.367 Epoch: 10, Time: 0.0347, Loss: 2.5788, Loss_gcn: 0.1414, Loss_lpa:0.8699, Loss_lpa2:0.7838, TrainAcc: 0.9667, ValAcc: 0.1940, ES: 10/50 | BestVal=0.5860@E0
+2025-04-26 03:00:25.369 Epoch: 20, Time: 0.0378, Loss: 2.4895, Loss_gcn: 0.0907, Loss_lpa:0.8606, Loss_lpa2:0.7691, TrainAcc: 0.9500, ValAcc: 0.5500, ES: 20/50 | BestVal=0.5860@E0
+2025-04-26 03:00:25.371 Epoch: 30, Time: 0.0402, Loss: 2.4294, Loss_gcn: 0.0730, Loss_lpa:0.8501, Loss_lpa2:0.7531, TrainAcc: 0.9667, ValAcc: 0.8260, ES: 00/50 | BestVal=0.8260@E30
+2025-04-26 03:00:25.373 Epoch: 40, Time: 0.0404, Loss: 2.3250, Loss_gcn: 0.0143, Loss_lpa:0.8382, Loss_lpa2:0.7362, TrainAcc: 1.0000, ValAcc: 0.8920, ES: 00/50 | BestVal=0.8920@E40
+2025-04-26 03:00:25.375 Epoch: 50, Time: 0.0414, Loss: 2.2755, Loss_gcn: 0.0158, Loss_lpa:0.8242, Loss_lpa2:0.7177, TrainAcc: 1.0000, ValAcc: 0.9180, ES: 00/50 | BestVal=0.9180@E50
+2025-04-26 03:00:25.377 Epoch: 60, Time: 0.0382, Loss: 2.2140, Loss_gcn: 0.0126, Loss_lpa:0.8074, Loss_lpa2:0.6970, TrainAcc: 1.0000, ValAcc: 0.9140, ES: 03/50 | BestVal=0.9180@E57
+2025-04-26 03:00:25.379 Epoch: 70, Time: 0.0382, Loss: 2.1423, Loss_gcn: 0.0105, Loss_lpa:0.7864, Loss_lpa2:0.6727, TrainAcc: 1.0000, ValAcc: 0.9060, ES: 13/50 | BestVal=0.9180@E57
+2025-04-26 03:00:25.381 Epoch: 80, Time: 0.0376, Loss: 2.0502, Loss_gcn: 0.0077, Loss_lpa:0.7579, Loss_lpa2:0.6423, TrainAcc: 1.0000, ValAcc: 0.9160, ES: 23/50 | BestVal=0.9180@E57
+2025-04-26 03:00:25.382 Epoch: 90, Time: 0.0377, Loss: 1.9163, Loss_gcn: 0.0049, Loss_lpa:0.7146, Loss_lpa2:0.5984, TrainAcc: 1.0000, ValAcc: 0.9160, ES: 01/50 | BestVal=0.9180@E89
+2025-04-26 03:00:25.384 Epoch: 100, Time: 0.0375, Loss: 1.7119, Loss_gcn: 0.0055, Loss_lpa:0.6527, Loss_lpa2:0.5269, TrainAcc: 1.0000, ValAcc: 0.9160, ES: 01/50 | BestVal=0.9180@E99
+2025-04-26 03:00:25.385 Epoch: 110, Time: 0.0375, Loss: 1.5786, Loss_gcn: 0.0477, Loss_lpa:0.6013, Loss_lpa2:0.4648, TrainAcc: 0.9833, ValAcc: 0.8400, ES: 07/50 | BestVal=0.9220@E103
+2025-04-26 03:00:25.387 Epoch: 120, Time: 0.0379, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.3333, ValAcc: 0.1940, ES: 07/50 | BestVal=0.9260@E113
+2025-04-26 03:00:25.389 Epoch: 130, Time: 0.0375, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.3333, ValAcc: 0.1940, ES: 17/50 | BestVal=0.9260@E113
+2025-04-26 03:00:25.390 Epoch: 140, Time: 0.0374, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.3333, ValAcc: 0.1940, ES: 27/50 | BestVal=0.9260@E113
+2025-04-26 03:00:25.392 Epoch: 150, Time: 0.0374, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.3333, ValAcc: 0.1940, ES: 37/50 | BestVal=0.9260@E113
+2025-04-26 03:00:25.393 Epoch: 160, Time: 0.0375, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.3333, ValAcc: 0.1940, ES: 47/50 | BestVal=0.9260@E113
+2025-04-26 03:00:25.395 Early stopped, loading model from epoch-113
+2025-04-26 03:00:25.396 Finished running train at 04-26 11:00:18, running time = 6.25s.
+2025-04-26 03:00:25.398 [P] ValAcc: 0.9260, TestAcc: 0.9300
+2025-04-26 03:00:25.399 
+2025-04-26 03:00:25.401 deberta-base
+2025-04-26 03:00:25.403 Loading pretrained LM features (explanations) ...
+2025-04-26 03:00:25.405 LM_emb_path: prt_lm_fewshot/pubmed2/microsoft/deberta-base-seed3.emb
+2025-04-26 03:00:25.406 
+2025-04-26 03:00:25.408 Number of parameters: 353108
+2025-04-26 03:00:25.410 Start running train at 04-26 11:00:20
+2025-04-26 03:00:25.411 Epoch: 0, Time: 0.0407, Loss: 4.0845, Loss_gcn: 1.6122, Loss_lpa:0.8778, Loss_lpa2:0.7972, TrainAcc: 0.2833, ValAcc: 0.5360, ES: 00/50 | BestVal=0.5360@E0
+2025-04-26 03:00:25.413 Epoch: 10, Time: 0.0366, Loss: 2.5484, Loss_gcn: 0.1092, Loss_lpa:0.8708, Loss_lpa2:0.7842, TrainAcc: 0.9667, ValAcc: 0.3480, ES: 10/50 | BestVal=0.5360@E0
+2025-04-26 03:00:25.415 Epoch: 20, Time: 0.0393, Loss: 2.4498, Loss_gcn: 0.0498, Loss_lpa:0.8614, Loss_lpa2:0.7693, TrainAcc: 0.9667, ValAcc: 0.6000, ES: 00/50 | BestVal=0.6000@E20
+2025-04-26 03:00:25.416 Epoch: 30, Time: 0.0403, Loss: 2.3870, Loss_gcn: 0.0297, Loss_lpa:0.8507, Loss_lpa2:0.7533, TrainAcc: 0.9833, ValAcc: 0.7540, ES: 00/50 | BestVal=0.7540@E30
+2025-04-26 03:00:25.418 /usr/local/miniconda3/lib/python3.8/site-packages/torch_sparse/storage.py:14: UserWarning: `layout` argument unset, using default layout "coo". This may lead to unexpected behaviour.
+2025-04-26 03:00:25.419   warnings.warn('`layout` argument unset, using default layout '
+2025-04-26 03:00:25.421 /usr/local/miniconda3/lib/python3.8/site-packages/torch_sparse/storage.py:14: UserWarning: `layout` argument unset, using default layout "coo". This may lead to unexpected behaviour.
+2025-04-26 03:00:25.422   warnings.warn('`layout` argument unset, using default layout '
+2025-04-26 03:00:25.424 /usr/local/miniconda3/lib/python3.8/site-packages/torch_sparse/storage.py:14: UserWarning: `layout` argument unset, using default layout "coo". This may lead to unexpected behaviour.
+2025-04-26 03:00:25.425   warnings.warn('`layout` argument unset, using default layout '
+2025-04-26 03:00:25.427 /usr/local/miniconda3/lib/python3.8/site-packages/torch_sparse/storage.py:14: UserWarning: `layout` argument unset, using default layout "coo". This may lead to unexpected behaviour.
+2025-04-26 03:00:25.428   warnings.warn('`layout` argument unset, using default layout '
+2025-04-26 03:00:25.430 /usr/local/miniconda3/lib/python3.8/site-packages/torch_sparse/storage.py:14: UserWarning: `layout` argument unset, using default layout "coo". This may lead to unexpected behaviour.
+2025-04-26 03:00:25.432   warnings.warn('`layout` argument unset, using default layout '
+2025-04-26 03:00:25.433 /usr/local/miniconda3/lib/python3.8/site-packages/torch_sparse/storage.py:14: UserWarning: `layout` argument unset, using default layout "coo". This may lead to unexpected behaviour.
+2025-04-26 03:00:25.435   warnings.warn('`layout` argument unset, using default layout '
+2025-04-26 03:00:25.436 /usr/local/miniconda3/lib/python3.8/site-packages/torch_sparse/storage.py:14: UserWarning: `layout` argument unset, using default layout "coo". This may lead to unexpected behaviour.
+2025-04-26 03:00:25.438   warnings.warn('`layout` argument unset, using default layout '
+2025-04-26 03:00:25.439 /usr/local/miniconda3/lib/python3.8/site-packages/torch_sparse/storage.py:14: UserWarning: `layout` argument unset, using default layout "coo". This may lead to unexpected behaviour.
+2025-04-26 03:00:25.441   warnings.warn('`layout` argument unset, using default layout '
+2025-04-26 03:00:25.442 /usr/local/miniconda3/lib/python3.8/site-packages/torch_sparse/storage.py:14: UserWarning: `layout` argument unset, using default layout "coo". This may lead to unexpected behaviour.
+2025-04-26 03:00:25.444   warnings.warn('`layout` argument unset, using default layout '
+2025-04-26 03:00:25.446 /usr/local/miniconda3/lib/python3.8/site-packages/torch_sparse/storage.py:14: UserWarning: `layout` argument unset, using default layout "coo". This may lead to unexpected behaviour.
+2025-04-26 03:00:25.447   warnings.warn('`layout` argument unset, using default layout '
+2025-04-26 03:00:25.449 /usr/local/miniconda3/lib/python3.8/site-packages/torch_sparse/storage.py:14: UserWarning: `layout` argument unset, using default layout "coo". This may lead to unexpected behaviour.
+2025-04-26 03:00:25.450   warnings.warn('`layout` argument unset, using default layout '
+2025-04-26 03:00:25.452 /usr/local/miniconda3/lib/python3.8/site-packages/torch_sparse/storage.py:14: UserWarning: `layout` argument unset, using default layout "coo". This may lead to unexpected behaviour.
+2025-04-26 03:00:25.453   warnings.warn('`layout` argument unset, using default layout '
+2025-04-26 03:00:25.455 Epoch: 40, Time: 0.0367, Loss: 2.3218, Loss_gcn: 0.0116, Loss_lpa:0.8383, Loss_lpa2:0.7359, TrainAcc: 1.0000, ValAcc: 0.8200, ES: 04/50 | BestVal=0.8620@E36
+2025-04-26 03:00:25.456 Epoch: 50, Time: 0.0368, Loss: 2.2639, Loss_gcn: 0.0065, Loss_lpa:0.8240, Loss_lpa2:0.7167, TrainAcc: 1.0000, ValAcc: 0.8360, ES: 14/50 | BestVal=0.8620@E36
+2025-04-26 03:00:25.458 Epoch: 60, Time: 0.0363, Loss: 2.1986, Loss_gcn: 0.0024, Loss_lpa:0.8066, Loss_lpa2:0.6948, TrainAcc: 1.0000, ValAcc: 0.8720, ES: 01/50 | BestVal=0.8740@E59
+2025-04-26 03:00:25.460 Epoch: 70, Time: 0.0363, Loss: 2.1243, Loss_gcn: 0.0015, Loss_lpa:0.7846, Loss_lpa2:0.6691, TrainAcc: 1.0000, ValAcc: 0.8660, ES: 07/50 | BestVal=0.8760@E63
+2025-04-26 03:00:25.461 Epoch: 80, Time: 0.0362, Loss: 2.0357, Loss_gcn: 0.0061, Loss_lpa:0.7555, Loss_lpa2:0.6371, TrainAcc: 1.0000, ValAcc: 0.8540, ES: 02/50 | BestVal=0.8760@E78
+2025-04-26 03:00:25.463 Epoch: 90, Time: 0.0368, Loss: 1.9538, Loss_gcn: 0.0563, Loss_lpa:0.7131, Loss_lpa2:0.5922, TrainAcc: 0.9667, ValAcc: 0.8580, ES: 01/50 | BestVal=0.8800@E89
+2025-04-26 03:00:25.464 Epoch: 100, Time: 0.0366, Loss: 1.7510, Loss_gcn: 0.0747, Loss_lpa:0.6492, Loss_lpa2:0.5135, TrainAcc: 0.9833, ValAcc: 0.7880, ES: 11/50 | BestVal=0.8800@E89
+2025-04-26 03:00:25.466 Epoch: 110, Time: 0.0362, Loss: 1.5184, Loss_gcn: 0.0405, Loss_lpa:0.5931, Loss_lpa2:0.4424, TrainAcc: 1.0000, ValAcc: 0.7600, ES: 21/50 | BestVal=0.8800@E89
+2025-04-26 03:00:25.467 Epoch: 120, Time: 0.0365, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.3333, ValAcc: 0.1940, ES: 31/50 | BestVal=0.8800@E89
+2025-04-26 03:00:25.469 Epoch: 130, Time: 0.0362, Loss: nan, Loss_gcn: nan, Loss_lpa:nan, Loss_lpa2:nan, TrainAcc: 0.3333, ValAcc: 0.1940, ES: 41/50 | BestVal=0.8800@E89
+2025-04-26 03:00:25.470 Early stopped, loading model from epoch-89
+2025-04-26 03:01:02.126 Finished running train at 04-26 11:00:25, running time = 5.20s.
+2025-04-26 03:01:02.129 [E] ValAcc: 0.8800, TestAcc: 0.8740
+2025-04-26 03:01:02.130 
+2025-04-26 03:01:02.132 (TA_P_E) ValAcc: 0.8940, TestAcc: 0.9000
+2025-04-26 03:01:02.134 
+2025-04-26 03:01:02.136 [TA] ValACC: 0.6595 ± 0.0469, TestAcc: 0.6535 ± 0.0427
+2025-04-26 03:01:02.137 [P] ValACC: 0.9160 ± 0.0255, TestAcc: 0.9138 ± 0.0284
+2025-04-26 03:01:02.139 [E] ValACC: 0.8780 ± 0.0277, TestAcc: 0.8602 ± 0.0248
+2025-04-26 03:01:02.140 [ensemble] ValACC: 0.8945 ± 0.0176, TestAcc: 0.8930 ± 0.0256
+
+
+
+
+
+
+2025-04-26 03:01:02.143 deberta-base
+2025-04-26 03:01:02.146 Loading pretrained LM features (title and abstract) ...
+2025-04-26 03:01:02.148 LM_emb_path: prt_lm_fewshot/arxiv_2023/microsoft/deberta-base-seed0.emb
+2025-04-26 03:01:02.151 
+2025-04-26 03:01:02.152 Number of parameters: 353286
+2025-04-26 03:01:02.154 Start running train at 04-26 11:00:32
+2025-04-26 03:01:02.156 Epoch: 0, Time: 0.4588, Loss: 13.8561, Loss_gcn: 4.6199, Loss_lpa:2.9261, Loss_lpa2:3.1550, TrainAcc: 0.0238, ValAcc: 0.0940, ES: 00/50 | BestVal=0.0940@E0
+2025-04-26 03:01:02.157 Epoch: 10, Time: 0.0479, Loss: 10.6485, Loss_gcn: 1.4223, Loss_lpa:2.9202, Loss_lpa2:3.1530, TrainAcc: 0.5485, ValAcc: 0.5040, ES: 05/50 | BestVal=0.5140@E5
+2025-04-26 03:01:02.159 Epoch: 20, Time: 0.0466, Loss: 10.1113, Loss_gcn: 0.8966, Loss_lpa:2.9137, Loss_lpa2:3.1505, TrainAcc: 0.7168, ValAcc: 0.5220, ES: 04/50 | BestVal=0.5600@E16
+2025-04-26 03:01:02.160 Epoch: 30, Time: 0.0467, Loss: 9.8149, Loss_gcn: 0.6130, Loss_lpa:2.9066, Loss_lpa2:3.1477, TrainAcc: 0.8059, ValAcc: 0.5340, ES: 14/50 | BestVal=0.5600@E16
+2025-04-26 03:01:02.162 Epoch: 40, Time: 0.0470, Loss: 9.5858, Loss_gcn: 0.3984, Loss_lpa:2.8986, Loss_lpa2:3.1444, TrainAcc: 0.8832, ValAcc: 0.4620, ES: 24/50 | BestVal=0.5600@E16
+2025-04-26 03:01:02.163 Epoch: 50, Time: 0.0468, Loss: 9.4755, Loss_gcn: 0.3047, Loss_lpa:2.8896, Loss_lpa2:3.1406, TrainAcc: 0.8970, ValAcc: 0.4600, ES: 34/50 | BestVal=0.5600@E16
+2025-04-26 03:01:02.165 Epoch: 60, Time: 0.0471, Loss: 9.4107, Loss_gcn: 0.2594, Loss_lpa:2.8795, Loss_lpa2:3.1360, TrainAcc: 0.9089, ValAcc: 0.4340, ES: 44/50 | BestVal=0.5600@E16
+2025-04-26 03:01:02.167 Early stopped, loading model from epoch-16
+2025-04-26 03:01:02.168 Finished running train at 04-26 11:00:36, running time = 3.63s.
+2025-04-26 03:01:02.170 [TA] ValAcc: 0.5600, TestAcc: 0.5530
+2025-04-26 03:01:02.171 
+2025-04-26 03:01:02.173 deberta-base
+2025-04-26 03:01:02.174 Loading top-k prediction features ...
+2025-04-26 03:01:02.176 
+2025-04-26 03:01:02.177 Number of parameters: 494854
+2025-04-26 03:01:02.179 Start running train at 04-26 11:00:38
+2025-04-26 03:01:02.181 Epoch: 0, Time: 0.0616, Loss: 13.8441, Loss_gcn: 4.6080, Loss_lpa:2.9261, Loss_lpa2:3.1550, TrainAcc: 0.0218, ValAcc: 0.6780, ES: 00/50 | BestVal=0.6780@E0
+2025-04-26 03:01:02.182 Epoch: 10, Time: 0.0535, Loss: 10.1458, Loss_gcn: 0.9199, Loss_lpa:2.9204, Loss_lpa2:3.1527, TrainAcc: 0.7347, ValAcc: 0.7260, ES: 05/50 | BestVal=0.8220@E5
+2025-04-26 03:01:02.184 Epoch: 20, Time: 0.0533, Loss: 9.6762, Loss_gcn: 0.4617, Loss_lpa:2.9141, Loss_lpa2:3.1502, TrainAcc: 0.8673, ValAcc: 0.6880, ES: 15/50 | BestVal=0.8220@E5
+2025-04-26 03:01:02.186 Epoch: 30, Time: 0.0534, Loss: 9.5221, Loss_gcn: 0.3200, Loss_lpa:2.9070, Loss_lpa2:3.1476, TrainAcc: 0.9050, ValAcc: 0.5820, ES: 25/50 | BestVal=0.8220@E5
+2025-04-26 03:01:02.187 Epoch: 40, Time: 0.0540, Loss: 9.3816, Loss_gcn: 0.1937, Loss_lpa:2.8988, Loss_lpa2:3.1445, TrainAcc: 0.9465, ValAcc: 0.5400, ES: 35/50 | BestVal=0.8220@E5
+2025-04-26 03:01:02.189 Epoch: 50, Time: 0.0534, Loss: 9.3600, Loss_gcn: 0.1888, Loss_lpa:2.8895, Loss_lpa2:3.1408, TrainAcc: 0.9465, ValAcc: 0.4740, ES: 45/50 | BestVal=0.8220@E5
+2025-04-26 03:01:02.190 Early stopped, loading model from epoch-5
+2025-04-26 03:01:02.192 Finished running train at 04-26 11:00:41, running time = 3.03s.
+2025-04-26 03:01:02.193 [P] ValAcc: 0.8220, TestAcc: 0.7260
+2025-04-26 03:01:02.195 
+2025-04-26 03:01:02.196 deberta-base
+2025-04-26 03:01:02.198 Loading pretrained LM features (explanations) ...
+2025-04-26 03:01:02.200 LM_emb_path: prt_lm_fewshot/arxiv_20232/microsoft/deberta-base-seed0.emb
+2025-04-26 03:01:02.201 
+2025-04-26 03:01:02.203 Number of parameters: 353286
+2025-04-26 03:01:02.204 Start running train at 04-26 11:00:42
+2025-04-26 03:01:02.206 Epoch: 0, Time: 0.0518, Loss: 14.0092, Loss_gcn: 4.7731, Loss_lpa:2.9261, Loss_lpa2:3.1550, TrainAcc: 0.0238, ValAcc: 0.0360, ES: 00/50 | BestVal=0.0360@E0
+2025-04-26 03:01:02.207 Epoch: 10, Time: 0.0467, Loss: 11.1467, Loss_gcn: 1.9204, Loss_lpa:2.9204, Loss_lpa2:3.1529, TrainAcc: 0.4792, ValAcc: 0.2440, ES: 07/50 | BestVal=0.4160@E3
+2025-04-26 03:01:02.209 Epoch: 20, Time: 0.0467, Loss: 10.6407, Loss_gcn: 1.4262, Loss_lpa:2.9143, Loss_lpa2:3.1501, TrainAcc: 0.5525, ValAcc: 0.6400, ES: 01/50 | BestVal=0.6480@E19
+2025-04-26 03:01:02.210 Epoch: 30, Time: 0.0468, Loss: 10.3241, Loss_gcn: 1.1230, Loss_lpa:2.9075, Loss_lpa2:3.1468, TrainAcc: 0.6376, ValAcc: 0.6680, ES: 03/50 | BestVal=0.6840@E27
+2025-04-26 03:01:02.212 Epoch: 40, Time: 0.0467, Loss: 10.0458, Loss_gcn: 0.8599, Loss_lpa:2.9000, Loss_lpa2:3.1430, TrainAcc: 0.7149, ValAcc: 0.6220, ES: 05/50 | BestVal=0.6900@E35
+2025-04-26 03:01:02.213 Epoch: 50, Time: 0.0476, Loss: 9.8784, Loss_gcn: 0.7095, Loss_lpa:2.8917, Loss_lpa2:3.1386, TrainAcc: 0.7743, ValAcc: 0.5240, ES: 15/50 | BestVal=0.6900@E35
+2025-04-26 03:01:02.214 Epoch: 60, Time: 0.0467, Loss: 9.7443, Loss_gcn: 0.5950, Loss_lpa:2.8822, Loss_lpa2:3.1336, TrainAcc: 0.8178, ValAcc: 0.4660, ES: 25/50 | BestVal=0.6900@E35
+2025-04-26 03:01:02.216 Epoch: 70, Time: 0.0467, Loss: 9.6398, Loss_gcn: 0.5132, Loss_lpa:2.8714, Loss_lpa2:3.1276, TrainAcc: 0.8337, ValAcc: 0.6740, ES: 35/50 | BestVal=0.6900@E35
+2025-04-26 03:01:02.218 Epoch: 80, Time: 0.0468, Loss: 9.6034, Loss_gcn: 0.5044, Loss_lpa:2.8587, Loss_lpa2:3.1202, TrainAcc: 0.8218, ValAcc: 0.3880, ES: 45/50 | BestVal=0.6900@E35
+2025-04-26 03:01:02.219 Early stopped, loading model from epoch-35
+2025-04-26 03:01:02.220 Finished running train at 04-26 11:00:46, running time = 4.09s.
+2025-04-26 03:01:02.222 [E] ValAcc: 0.6900, TestAcc: 0.6600
+2025-04-26 03:01:02.223 
+2025-04-26 03:01:02.225 (TA_P_E) ValAcc: 0.8000, TestAcc: 0.7560
+2025-04-26 03:01:02.226 
+2025-04-26 03:01:02.228 deberta-base
+2025-04-26 03:01:02.230 Loading pretrained LM features (title and abstract) ...
+2025-04-26 03:01:02.231 LM_emb_path: prt_lm_fewshot/arxiv_2023/microsoft/deberta-base-seed1.emb
+2025-04-26 03:01:02.233 
+2025-04-26 03:01:02.235 Number of parameters: 353286
+2025-04-26 03:01:02.236 Start running train at 04-26 11:00:50
+2025-04-26 03:01:02.238 Epoch: 0, Time: 0.0558, Loss: 14.0238, Loss_gcn: 4.6813, Loss_lpa:2.9404, Loss_lpa2:3.2011, TrainAcc: 0.0178, ValAcc: 0.1940, ES: 00/50 | BestVal=0.1940@E0
+2025-04-26 03:01:02.240 Epoch: 10, Time: 0.0468, Loss: 10.6062, Loss_gcn: 1.2754, Loss_lpa:2.9340, Loss_lpa2:3.1984, TrainAcc: 0.6391, ValAcc: 0.4980, ES: 06/50 | BestVal=0.5520@E4
+2025-04-26 03:01:02.241 Epoch: 20, Time: 0.0499, Loss: 10.1081, Loss_gcn: 0.7907, Loss_lpa:2.9270, Loss_lpa2:3.1952, TrainAcc: 0.7791, ValAcc: 0.4940, ES: 16/50 | BestVal=0.5520@E4
+2025-04-26 03:01:02.243 Epoch: 30, Time: 0.0445, Loss: 9.8194, Loss_gcn: 0.5170, Loss_lpa:2.9191, Loss_lpa2:3.1916, TrainAcc: 0.8225, ValAcc: 0.4620, ES: 26/50 | BestVal=0.5520@E4
+2025-04-26 03:01:02.244 Epoch: 40, Time: 0.0469, Loss: 9.6167, Loss_gcn: 0.3311, Loss_lpa:2.9104, Loss_lpa2:3.1876, TrainAcc: 0.8994, ValAcc: 0.4860, ES: 36/50 | BestVal=0.5520@E4
+2025-04-26 03:01:02.246 Epoch: 50, Time: 0.0496, Loss: 9.5064, Loss_gcn: 0.2399, Loss_lpa:2.9008, Loss_lpa2:3.1829, TrainAcc: 0.9428, ValAcc: 0.3940, ES: 46/50 | BestVal=0.5520@E4
+2025-04-26 03:01:02.248 Early stopped, loading model from epoch-4
+2025-04-26 03:01:02.250 Finished running train at 04-26 11:00:52, running time = 2.64s.
+2025-04-26 03:01:02.252 [TA] ValAcc: 0.5520, TestAcc: 0.5330
+2025-04-26 03:01:02.253 
+2025-04-26 03:01:02.255 deberta-base
+2025-04-26 03:01:02.256 Loading top-k prediction features ...
+2025-04-26 03:01:02.257 
+2025-04-26 03:01:02.260 Number of parameters: 494854
+2025-04-26 03:01:02.261 Start running train at 04-26 11:00:54
+2025-04-26 03:01:02.263 Epoch: 0, Time: 0.0594, Loss: 13.8289, Loss_gcn: 4.4864, Loss_lpa:2.9404, Loss_lpa2:3.2011, TrainAcc: 0.0276, ValAcc: 0.3840, ES: 00/50 | BestVal=0.3840@E0
+2025-04-26 03:01:02.264 Epoch: 10, Time: 0.0535, Loss: 10.2802, Loss_gcn: 0.9501, Loss_lpa:2.9341, Loss_lpa2:3.1980, TrainAcc: 0.7318, ValAcc: 0.5820, ES: 05/50 | BestVal=0.6400@E5
+2025-04-26 03:01:02.266 Epoch: 20, Time: 0.0540, Loss: 9.7938, Loss_gcn: 0.4776, Loss_lpa:2.9273, Loss_lpa2:3.1944, TrainAcc: 0.8619, ValAcc: 0.5880, ES: 15/50 | BestVal=0.6400@E5
+2025-04-26 03:01:02.267 Epoch: 30, Time: 0.0541, Loss: 9.5870, Loss_gcn: 0.2861, Loss_lpa:2.9195, Loss_lpa2:3.1907, TrainAcc: 0.9310, ValAcc: 0.5140, ES: 25/50 | BestVal=0.6400@E5
+2025-04-26 03:01:02.269 Epoch: 40, Time: 0.0544, Loss: 9.4963, Loss_gcn: 0.2120, Loss_lpa:2.9109, Loss_lpa2:3.1867, TrainAcc: 0.9487, ValAcc: 0.5020, ES: 35/50 | BestVal=0.6400@E5
+2025-04-26 03:01:02.270 Epoch: 50, Time: 0.0537, Loss: 9.4068, Loss_gcn: 0.1412, Loss_lpa:2.9011, Loss_lpa2:3.1823, TrainAcc: 0.9724, ValAcc: 0.4560, ES: 45/50 | BestVal=0.6400@E5
+2025-04-26 03:01:02.272 Early stopped, loading model from epoch-5
+2025-04-26 03:01:02.273 Finished running train at 04-26 11:00:57, running time = 3.05s.
+2025-04-26 03:01:02.274 [P] ValAcc: 0.6400, TestAcc: 0.6450
+2025-04-26 03:01:02.276 
+2025-04-26 03:01:02.277 deberta-base
+2025-04-26 03:01:02.279 Loading pretrained LM features (explanations) ...
+2025-04-26 03:01:02.280 LM_emb_path: prt_lm_fewshot/arxiv_20232/microsoft/deberta-base-seed1.emb
+2025-04-26 03:01:02.281 
+2025-04-26 03:01:02.283 Number of parameters: 353286
+2025-04-26 03:01:02.284 Start running train at 04-26 11:00:59
+2025-04-26 03:01:02.286 Epoch: 0, Time: 0.0517, Loss: 14.0185, Loss_gcn: 4.6760, Loss_lpa:2.9404, Loss_lpa2:3.2011, TrainAcc: 0.0296, ValAcc: 0.1320, ES: 00/50 | BestVal=0.1320@E0
+2025-04-26 03:01:02.287 Epoch: 10, Time: 0.0472, Loss: 10.9178, Loss_gcn: 1.5871, Loss_lpa:2.9341, Loss_lpa2:3.1983, TrainAcc: 0.5503, ValAcc: 0.6880, ES: 07/50 | BestVal=0.7180@E3
+2025-04-26 03:01:02.288 Epoch: 20, Time: 0.0466, Loss: 10.3427, Loss_gcn: 1.0259, Loss_lpa:2.9274, Loss_lpa2:3.1947, TrainAcc: 0.6963, ValAcc: 0.5660, ES: 17/50 | BestVal=0.7180@E3
+2025-04-26 03:01:34.462 Epoch: 30, Time: 0.0468, Loss: 10.0352, Loss_gcn: 0.7339, Loss_lpa:2.9199, Loss_lpa2:3.1907, TrainAcc: 0.7633, ValAcc: 0.5660, ES: 27/50 | BestVal=0.7180@E3
+2025-04-26 03:01:34.465 Epoch: 40, Time: 0.0466, Loss: 9.8210, Loss_gcn: 0.5369, Loss_lpa:2.9116, Loss_lpa2:3.1863, TrainAcc: 0.8323, ValAcc: 0.5320, ES: 37/50 | BestVal=0.7180@E3
+2025-04-26 03:01:34.467 Epoch: 50, Time: 0.0475, Loss: 9.6947, Loss_gcn: 0.4301, Loss_lpa:2.9023, Loss_lpa2:3.1812, TrainAcc: 0.8442, ValAcc: 0.5760, ES: 47/50 | BestVal=0.7180@E3
+2025-04-26 03:01:34.470 Early stopped, loading model from epoch-3
+2025-04-26 03:01:34.472 Finished running train at 04-26 11:01:02, running time = 2.55s.
+2025-04-26 03:01:34.474 [E] ValAcc: 0.7180, TestAcc: 0.6060
+2025-04-26 03:01:34.475 
+2025-04-26 03:01:34.477 (TA_P_E) ValAcc: 0.7140, TestAcc: 0.7020
+2025-04-26 03:01:34.479 
+2025-04-26 03:01:34.480 deberta-base
+2025-04-26 03:01:34.482 Loading pretrained LM features (title and abstract) ...
+2025-04-26 03:01:34.484 LM_emb_path: prt_lm_fewshot/arxiv_2023/microsoft/deberta-base-seed2.emb
+2025-04-26 03:01:34.485 
+2025-04-26 03:01:34.486 Number of parameters: 353286
+2025-04-26 03:01:34.488 Start running train at 04-26 11:01:05
+2025-04-26 03:01:34.489 Epoch: 0, Time: 0.0513, Loss: 13.9760, Loss_gcn: 4.7258, Loss_lpa:2.9290, Loss_lpa2:3.1606, TrainAcc: 0.0175, ValAcc: 0.1460, ES: 00/50 | BestVal=0.1460@E0
+2025-04-26 03:01:34.491 Epoch: 10, Time: 0.0465, Loss: 10.7195, Loss_gcn: 1.4802, Loss_lpa:2.9230, Loss_lpa2:3.1582, TrainAcc: 0.5545, ValAcc: 0.4600, ES: 06/50 | BestVal=0.5600@E4
+2025-04-26 03:01:34.492 Epoch: 20, Time: 0.0466, Loss: 10.0980, Loss_gcn: 0.8717, Loss_lpa:2.9168, Loss_lpa2:3.1548, TrainAcc: 0.7179, ValAcc: 0.4340, ES: 16/50 | BestVal=0.5600@E4
+2025-04-26 03:01:34.494 Epoch: 30, Time: 0.0473, Loss: 9.7311, Loss_gcn: 0.5196, Loss_lpa:2.9099, Loss_lpa2:3.1508, TrainAcc: 0.8424, ValAcc: 0.4780, ES: 26/50 | BestVal=0.5600@E4
+2025-04-26 03:01:34.495 Epoch: 40, Time: 0.0467, Loss: 9.5033, Loss_gcn: 0.3082, Loss_lpa:2.9022, Loss_lpa2:3.1464, TrainAcc: 0.9222, ValAcc: 0.4600, ES: 36/50 | BestVal=0.5600@E4
+2025-04-26 03:01:34.497 Epoch: 50, Time: 0.0466, Loss: 9.4058, Loss_gcn: 0.2290, Loss_lpa:2.8934, Loss_lpa2:3.1417, TrainAcc: 0.9300, ValAcc: 0.3880, ES: 46/50 | BestVal=0.5600@E4
+2025-04-26 03:01:34.498 Early stopped, loading model from epoch-4
+2025-04-26 03:01:34.500 Finished running train at 04-26 11:01:07, running time = 2.59s.
+2025-04-26 03:01:34.501 [TA] ValAcc: 0.5600, TestAcc: 0.4620
+2025-04-26 03:01:34.503 
+2025-04-26 03:01:34.504 deberta-base
+2025-04-26 03:01:34.505 Loading top-k prediction features ...
+2025-04-26 03:01:34.507 
+2025-04-26 03:01:34.508 Number of parameters: 494854
+2025-04-26 03:01:34.510 Start running train at 04-26 11:01:09
+2025-04-26 03:01:34.511 Epoch: 0, Time: 0.0581, Loss: 13.9690, Loss_gcn: 4.7188, Loss_lpa:2.9290, Loss_lpa2:3.1606, TrainAcc: 0.0272, ValAcc: 0.6100, ES: 00/50 | BestVal=0.6100@E0
+2025-04-26 03:01:34.513 Epoch: 10, Time: 0.0533, Loss: 10.0687, Loss_gcn: 0.8301, Loss_lpa:2.9233, Loss_lpa2:3.1577, TrainAcc: 0.7685, ValAcc: 0.6640, ES: 05/50 | BestVal=0.7200@E5
+2025-04-26 03:01:34.514 Epoch: 20, Time: 0.0534, Loss: 9.6549, Loss_gcn: 0.4294, Loss_lpa:2.9170, Loss_lpa2:3.1542, TrainAcc: 0.8677, ValAcc: 0.6600, ES: 15/50 | BestVal=0.7200@E5
+2025-04-26 03:01:34.516 Epoch: 30, Time: 0.0540, Loss: 9.4612, Loss_gcn: 0.2495, Loss_lpa:2.9100, Loss_lpa2:3.1508, TrainAcc: 0.9241, ValAcc: 0.6040, ES: 25/50 | BestVal=0.7200@E5
+2025-04-26 03:01:34.517 Epoch: 40, Time: 0.0533, Loss: 9.3417, Loss_gcn: 0.1455, Loss_lpa:2.9021, Loss_lpa2:3.1471, TrainAcc: 0.9747, ValAcc: 0.5320, ES: 35/50 | BestVal=0.7200@E5
+2025-04-26 03:01:34.519 Epoch: 50, Time: 0.0533, Loss: 9.3303, Loss_gcn: 0.1520, Loss_lpa:2.8931, Loss_lpa2:3.1426, TrainAcc: 0.9553, ValAcc: 0.5300, ES: 45/50 | BestVal=0.7200@E5
+2025-04-26 03:01:34.520 Early stopped, loading model from epoch-5
+2025-04-26 03:01:34.521 Finished running train at 04-26 11:01:12, running time = 3.02s.
+2025-04-26 03:01:34.523 [P] ValAcc: 0.7200, TestAcc: 0.6880
+2025-04-26 03:01:34.524 
+2025-04-26 03:01:34.526 deberta-base
+2025-04-26 03:01:34.527 Loading pretrained LM features (explanations) ...
+2025-04-26 03:01:34.528 LM_emb_path: prt_lm_fewshot/arxiv_20232/microsoft/deberta-base-seed2.emb
+2025-04-26 03:01:34.530 
+2025-04-26 03:01:34.531 Number of parameters: 353286
+2025-04-26 03:01:34.532 Start running train at 04-26 11:01:14
+2025-04-26 03:01:34.534 Epoch: 0, Time: 0.0509, Loss: 13.8866, Loss_gcn: 4.6364, Loss_lpa:2.9290, Loss_lpa2:3.1606, TrainAcc: 0.0175, ValAcc: 0.3180, ES: 00/50 | BestVal=0.3180@E0
+2025-04-26 03:01:34.535 Epoch: 10, Time: 0.0466, Loss: 10.6536, Loss_gcn: 1.4154, Loss_lpa:2.9233, Loss_lpa2:3.1575, TrainAcc: 0.6012, ValAcc: 0.7520, ES: 08/50 | BestVal=0.8120@E2
+2025-04-26 03:01:34.537 Epoch: 20, Time: 0.0466, Loss: 10.2197, Loss_gcn: 0.9950, Loss_lpa:2.9171, Loss_lpa2:3.1538, TrainAcc: 0.6770, ValAcc: 0.6540, ES: 18/50 | BestVal=0.8120@E2
+2025-04-26 03:01:34.538 Epoch: 30, Time: 0.0467, Loss: 10.0221, Loss_gcn: 0.8121, Loss_lpa:2.9104, Loss_lpa2:3.1498, TrainAcc: 0.7607, ValAcc: 0.6200, ES: 28/50 | BestVal=0.8120@E2
+2025-04-26 03:01:34.539 Epoch: 40, Time: 0.0472, Loss: 9.8434, Loss_gcn: 0.6494, Loss_lpa:2.9030, Loss_lpa2:3.1455, TrainAcc: 0.7977, ValAcc: 0.6160, ES: 38/50 | BestVal=0.8120@E2
+2025-04-26 03:01:34.541 Epoch: 50, Time: 0.0466, Loss: 9.7001, Loss_gcn: 0.5239, Loss_lpa:2.8947, Loss_lpa2:3.1408, TrainAcc: 0.8521, ValAcc: 0.6460, ES: 48/50 | BestVal=0.8120@E2
+2025-04-26 03:01:34.542 Early stopped, loading model from epoch-2
+2025-04-26 03:01:34.544 Finished running train at 04-26 11:01:17, running time = 2.49s.
+2025-04-26 03:01:34.545 [E] ValAcc: 0.8120, TestAcc: 0.7260
+2025-04-26 03:01:34.546 
+2025-04-26 03:01:34.548 (TA_P_E) ValAcc: 0.8040, TestAcc: 0.7590
+2025-04-26 03:01:34.549 
+2025-04-26 03:01:34.551 deberta-base
+2025-04-26 03:01:34.552 Loading pretrained LM features (title and abstract) ...
+2025-04-26 03:01:34.554 LM_emb_path: prt_lm_fewshot/arxiv_2023/microsoft/deberta-base-seed3.emb
+2025-04-26 03:01:34.555 
+2025-04-26 03:01:34.556 Number of parameters: 353286
+2025-04-26 03:01:34.558 Start running train at 04-26 11:01:20
+2025-04-26 03:01:34.559 Epoch: 0, Time: 0.0509, Loss: 13.9673, Loss_gcn: 4.7195, Loss_lpa:2.9235, Loss_lpa2:3.1622, TrainAcc: 0.0100, ValAcc: 0.2720, ES: 00/50 | BestVal=0.2720@E0
+2025-04-26 03:01:34.560 Epoch: 10, Time: 0.0465, Loss: 11.1055, Loss_gcn: 1.8679, Loss_lpa:2.9175, Loss_lpa2:3.1601, TrainAcc: 0.4260, ValAcc: 0.3220, ES: 09/50 | BestVal=0.3680@E1
+2025-04-26 03:01:34.562 Epoch: 20, Time: 0.0504, Loss: 10.4846, Loss_gcn: 1.2588, Loss_lpa:2.9111, Loss_lpa2:3.1573, TrainAcc: 0.5880, ValAcc: 0.3880, ES: 00/50 | BestVal=0.3880@E20
+2025-04-26 03:01:34.563 Epoch: 30, Time: 0.0465, Loss: 10.0766, Loss_gcn: 0.8644, Loss_lpa:2.9041, Loss_lpa2:3.1541, TrainAcc: 0.7260, ValAcc: 0.4000, ES: 08/50 | BestVal=0.4340@E22
+2025-04-26 03:01:34.565 Epoch: 40, Time: 0.0472, Loss: 9.8085, Loss_gcn: 0.6115, Loss_lpa:2.8963, Loss_lpa2:3.1503, TrainAcc: 0.8060, ValAcc: 0.4020, ES: 07/50 | BestVal=0.4460@E33
+2025-04-26 03:01:34.566 Epoch: 50, Time: 0.0465, Loss: 9.6421, Loss_gcn: 0.4621, Loss_lpa:2.8878, Loss_lpa2:3.1461, TrainAcc: 0.8580, ValAcc: 0.4120, ES: 17/50 | BestVal=0.4460@E33
+2025-04-26 03:01:34.569 Epoch: 60, Time: 0.0491, Loss: 9.4932, Loss_gcn: 0.3328, Loss_lpa:2.8784, Loss_lpa2:3.1410, TrainAcc: 0.8980, ValAcc: 0.4860, ES: 00/50 | BestVal=0.4860@E60
+2025-04-26 03:01:34.572 Epoch: 70, Time: 0.0470, Loss: 9.4353, Loss_gcn: 0.2975, Loss_lpa:2.8676, Loss_lpa2:3.1351, TrainAcc: 0.8960, ValAcc: 0.3400, ES: 10/50 | BestVal=0.4860@E60
+2025-04-26 03:01:34.574 Epoch: 80, Time: 0.0466, Loss: 9.3916, Loss_gcn: 0.2808, Loss_lpa:2.8554, Loss_lpa2:3.1277, TrainAcc: 0.9020, ValAcc: 0.2440, ES: 20/50 | BestVal=0.4860@E60
+2025-04-26 03:01:34.576 Epoch: 90, Time: 0.0464, Loss: 9.3484, Loss_gcn: 0.2708, Loss_lpa:2.8407, Loss_lpa2:3.1185, TrainAcc: 0.9180, ValAcc: 0.3260, ES: 30/50 | BestVal=0.4860@E60
+2025-04-26 03:01:34.578 Epoch: 100, Time: 0.0465, Loss: 9.3355, Loss_gcn: 0.2991, Loss_lpa:2.8233, Loss_lpa2:3.1065, TrainAcc: 0.9280, ValAcc: 0.4340, ES: 40/50 | BestVal=0.4860@E60
+2025-04-26 03:01:34.580 Epoch: 110, Time: 0.0475, Loss: 9.2481, Loss_gcn: 0.2510, Loss_lpa:2.8078, Loss_lpa2:3.0947, TrainAcc: 0.9160, ValAcc: 0.5240, ES: 04/50 | BestVal=0.5880@E106
+2025-04-26 03:01:34.582 Epoch: 120, Time: 0.0469, Loss: 9.1990, Loss_gcn: 0.2541, Loss_lpa:2.7892, Loss_lpa2:3.0779, TrainAcc: 0.9360, ValAcc: 0.5340, ES: 14/50 | BestVal=0.5880@E106
+2025-04-26 03:01:34.583 Epoch: 130, Time: 0.0467, Loss: 9.2738, Loss_gcn: 0.3902, Loss_lpa:2.7688, Loss_lpa2:3.0574, TrainAcc: 0.9020, ValAcc: 0.0680, ES: 24/50 | BestVal=0.5880@E106
+2025-04-26 03:01:34.585 Epoch: 140, Time: 0.0466, Loss: 9.4605, Loss_gcn: 0.6066, Loss_lpa:2.7606, Loss_lpa2:3.0467, TrainAcc: 0.7940, ValAcc: 0.0680, ES: 34/50 | BestVal=0.5880@E106
+2025-04-26 03:01:34.586 Epoch: 150, Time: 0.0466, Loss: 12.6754, Loss_gcn: 3.8450, Loss_lpa:2.7554, Loss_lpa2:3.0375, TrainAcc: 0.7800, ValAcc: 0.3360, ES: 44/50 | BestVal=0.5880@E106
+2025-04-26 03:01:34.588 Early stopped, loading model from epoch-106
+2025-04-26 03:01:34.589 Finished running train at 04-26 11:01:27, running time = 7.39s.
+2025-04-26 03:01:34.591 [TA] ValAcc: 0.5880, TestAcc: 0.5220
+2025-04-26 03:01:34.593 
+2025-04-26 03:01:34.594 deberta-base
+2025-04-26 03:01:34.595 Loading top-k prediction features ...
+2025-04-26 03:01:34.597 
+2025-04-26 03:01:34.599 Number of parameters: 494854
+2025-04-26 03:01:34.600 Start running train at 04-26 11:01:29
+2025-04-26 03:01:34.602 Epoch: 0, Time: 0.0579, Loss: 13.7893, Loss_gcn: 4.5415, Loss_lpa:2.9235, Loss_lpa2:3.1622, TrainAcc: 0.0320, ValAcc: 0.3920, ES: 00/50 | BestVal=0.3920@E0
+2025-04-26 03:01:34.603 Epoch: 10, Time: 0.0534, Loss: 10.1189, Loss_gcn: 0.8819, Loss_lpa:2.9177, Loss_lpa2:3.1597, TrainAcc: 0.7740, ValAcc: 0.6560, ES: 05/50 | BestVal=0.7700@E5
+2025-04-26 03:01:34.605 Epoch: 20, Time: 0.0538, Loss: 9.6589, Loss_gcn: 0.4345, Loss_lpa:2.9113, Loss_lpa2:3.1566, TrainAcc: 0.8760, ValAcc: 0.6680, ES: 15/50 | BestVal=0.7700@E5
+2025-04-26 03:01:39.533 Epoch: 30, Time: 0.0533, Loss: 9.4591, Loss_gcn: 0.2483, Loss_lpa:2.9040, Loss_lpa2:3.1534, TrainAcc: 0.9320, ValAcc: 0.6000, ES: 25/50 | BestVal=0.7700@E5
+2025-04-26 03:01:39.535 Epoch: 40, Time: 0.0533, Loss: 9.3293, Loss_gcn: 0.1337, Loss_lpa:2.8957, Loss_lpa2:3.1499, TrainAcc: 0.9620, ValAcc: 0.5680, ES: 35/50 | BestVal=0.7700@E5
+2025-04-26 03:01:39.538 Epoch: 50, Time: 0.0533, Loss: 9.2937, Loss_gcn: 0.1155, Loss_lpa:2.8863, Loss_lpa2:3.1459, TrainAcc: 0.9720, ValAcc: 0.5540, ES: 45/50 | BestVal=0.7700@E5
+2025-04-26 03:01:39.539 Early stopped, loading model from epoch-5
+2025-04-26 03:01:39.540 Finished running train at 04-26 11:01:32, running time = 3.02s.
+2025-04-26 03:01:39.542 [P] ValAcc: 0.7700, TestAcc: 0.7330
+2025-04-26 03:01:39.544 
+2025-04-26 03:01:39.546 deberta-base
+2025-04-26 03:01:39.547 Loading pretrained LM features (explanations) ...
+2025-04-26 03:01:39.549 LM_emb_path: prt_lm_fewshot/arxiv_20232/microsoft/deberta-base-seed3.emb
+2025-04-26 03:01:39.551 /usr/local/miniconda3/lib/python3.8/site-packages/torch_sparse/storage.py:14: UserWarning: `layout` argument unset, using default layout "coo". This may lead to unexpected behaviour.
+2025-04-26 03:01:39.553   warnings.warn('`layout` argument unset, using default layout '
+2025-04-26 03:01:39.554 
+2025-04-26 03:01:39.556 Number of parameters: 353286
+2025-04-26 03:01:39.557 Start running train at 04-26 11:01:34
+2025-04-26 03:01:39.559 Epoch: 0, Time: 0.0513, Loss: 13.7939, Loss_gcn: 4.5461, Loss_lpa:2.9235, Loss_lpa2:3.1622, TrainAcc: 0.0220, ValAcc: 0.1400, ES: 00/50 | BestVal=0.1400@E0
+2025-04-26 03:01:39.560 Epoch: 10, Time: 0.0466, Loss: 10.8452, Loss_gcn: 1.6079, Loss_lpa:2.9177, Loss_lpa2:3.1598, TrainAcc: 0.5520, ValAcc: 0.0860, ES: 09/50 | BestVal=0.2100@E1
+2025-04-26 03:01:39.561 Epoch: 20, Time: 0.0498, Loss: 10.3116, Loss_gcn: 1.0867, Loss_lpa:2.9116, Loss_lpa2:3.1567, TrainAcc: 0.6740, ValAcc: 0.4540, ES: 00/50 | BestVal=0.4540@E20
+2025-04-26 03:01:39.563 Epoch: 30, Time: 0.0502, Loss: 10.0462, Loss_gcn: 0.8355, Loss_lpa:2.9048, Loss_lpa2:3.1530, TrainAcc: 0.7660, ValAcc: 0.6320, ES: 00/50 | BestVal=0.6320@E30
+2025-04-26 03:01:39.564 Epoch: 40, Time: 0.0466, Loss: 9.7554, Loss_gcn: 0.5605, Loss_lpa:2.8974, Loss_lpa2:3.1488, TrainAcc: 0.8080, ValAcc: 0.6060, ES: 06/50 | BestVal=0.6640@E34
+2025-04-26 03:01:39.566 Epoch: 50, Time: 0.0465, Loss: 9.6260, Loss_gcn: 0.4488, Loss_lpa:2.8891, Loss_lpa2:3.1441, TrainAcc: 0.8560, ValAcc: 0.6560, ES: 05/50 | BestVal=0.7220@E45
+2025-04-26 03:01:39.567 Epoch: 60, Time: 0.0474, Loss: 9.5384, Loss_gcn: 0.3811, Loss_lpa:2.8797, Loss_lpa2:3.1388, TrainAcc: 0.8760, ValAcc: 0.3760, ES: 15/50 | BestVal=0.7220@E45
+2025-04-26 03:01:39.569 Epoch: 70, Time: 0.0468, Loss: 9.3919, Loss_gcn: 0.2576, Loss_lpa:2.8690, Loss_lpa2:3.1326, TrainAcc: 0.9280, ValAcc: 0.5220, ES: 25/50 | BestVal=0.7220@E45
+2025-04-26 03:01:39.570 Epoch: 80, Time: 0.0472, Loss: 9.3887, Loss_gcn: 0.2820, Loss_lpa:2.8565, Loss_lpa2:3.1251, TrainAcc: 0.9240, ValAcc: 0.4160, ES: 35/50 | BestVal=0.7220@E45
+2025-04-26 03:01:39.571 Epoch: 90, Time: 0.0466, Loss: 9.3756, Loss_gcn: 0.3054, Loss_lpa:2.8407, Loss_lpa2:3.1147, TrainAcc: 0.9120, ValAcc: 0.3820, ES: 45/50 | BestVal=0.7220@E45
+2025-04-26 03:01:39.573 Early stopped, loading model from epoch-45
+2025-04-26 03:01:39.574 Finished running train at 04-26 11:01:39, running time = 4.57s.
+2025-04-26 03:01:39.576 [E] ValAcc: 0.7220, TestAcc: 0.6680
+2025-04-26 03:01:39.577 
+2025-04-26 03:01:39.578 (TA_P_E) ValAcc: 0.7980, TestAcc: 0.7540
+2025-04-26 03:01:39.580 
+2025-04-26 03:01:39.582 [TA] ValACC: 0.5650 ± 0.0158, TestAcc: 0.5175 ± 0.0392
+2025-04-26 03:01:39.583 [P] ValACC: 0.7380 ± 0.0775, TestAcc: 0.6980 ± 0.0405
+2025-04-26 03:01:39.584 [E] ValACC: 0.7355 ± 0.0529, TestAcc: 0.6650 ± 0.0491
+2025-04-26 03:01:39.586 [ensemble] ValACC: 0.7790 ± 0.0434, TestAcc: 0.7428 ± 0.0272
