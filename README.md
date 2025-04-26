@@ -23,7 +23,7 @@ The latest advancements in large language models (LLMs) have revolutionized the 
 
 ## Datasets & Checkpoints
 
-We provide Datasets & Checkpoints in [link](). Please download them before running the code.
+We provide Datasets & Checkpoints in [link](). Please download them to the path ./code/ before running the code.
 
 ## Run the Code
     cd code && bash run_general_setting.sh/run_fewshot_setting.sh
