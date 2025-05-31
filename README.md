@@ -1,7 +1,7 @@
 ## Large Language Models as Topological Structure Enhancers for Text-Attributed Graphs (LLM4GraphTopology)
 ![version](https://img.shields.io/badge/version-1.0.1-6395ED)
 ![version](https://img.shields.io/badge/license-MIT-9ACD32)
-[![preprint](https://img.shields.io/badge/Preprint'25-EE4C2C)](https://arxiv.org/abs/2501.15393)
+[![preprint](https://img.shields.io/badge/Preprint'25-EE4C2C)](https://arxiv.org/abs/2311.14324)
 [![DASFAA](https://img.shields.io/badge/DASFAA-2025-B57EDC)](https://dasfaa2025.github.io/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 
