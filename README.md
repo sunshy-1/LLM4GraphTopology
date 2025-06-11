@@ -4,7 +4,7 @@
 [![preprint](https://img.shields.io/badge/Preprint'25-EE4C2C)](https://arxiv.org/abs/2311.14324)
 [![DASFAA](https://img.shields.io/badge/DASFAA-2025-B57EDC)](https://dasfaa2025.github.io/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)](https://pytorch.org/)
-![](https://img.shields.io/github/stars/sunshy-1/LLM4GraphTopology?style=social) 
+![](https://img.shields.io/github/stars/sunshy-1/LLM4GraphTopology?style=social)  
 
 This is the Pytorch implementation for our *DASFAA'25* paper: [**LLM4GraphTopology: Large Language Models as Topological Structure Enhancers for Text-Attributed Graphs**](https://arxiv.org/abs/2311.14324). 
 
